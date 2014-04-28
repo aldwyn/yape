@@ -25,13 +25,13 @@ class Philosopher(Node, Thread):
 	def __str__(self):
 		return '<Philosopher: %s>' % self.data
 	
-	def __eat(self, delay):
+	def __eat(self):
+		delay = random.randint(1, 5)
 		print '%s now eating for %d seconds...' % (self, delay)
 		time.sleep(delay)
 
 	def __remove_self_from_philosophers(self):
 		self.philosophers.remove(self.data)
-		print '%s already left the table.' % self
 
 	def set_fork_list(self, fork_list):
 		self.fork_list = fork_list
@@ -46,9 +46,10 @@ class Philosopher(Node, Thread):
 
 		with left_fork.lock, right_fork.lock:
 			print '%s is using %s (L) and %s (R).' % (self, left_fork, right_fork)
-			delay = random.randint(1, 5)
-			self.__eat(delay)
+			self.__eat()
 			self.__remove_self_from_philosophers()
+		
+		print '%s already left the table.' % self
 
 
 class DiningPhilosophers():
@@ -72,22 +73,12 @@ class DiningPhilosophers():
 			initial = initial.next
 			ctr -= 1
 
-
 		initial, ctr = self.philosophers.first, self.philosophers.length
 		while ctr > 0:
 			initial.join()
 			initial = initial.next
 			ctr -= 1
 
-		print self.philosophers
-
-		# self.philosophers.first.join()
-		# initial = self.philosophers.first.next
-		# while initial != self.philosophers.first:
-		# 	initial.join()
-		# 	initial = initial.next
-
-		
 
 if __name__ == '__main__':
 
