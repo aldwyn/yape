@@ -4,27 +4,34 @@ import requests
 import json
 import cProfile
 
-class Scraper:
+class MynimoWebScraper:
 	
-	def __init__(self, url, params):
-		self.proxies = {'http': 'http://23.27.197.200:24801'}
-		self.url = url + params['searchType'] + '/search/'
-		self.params = params
+	def __init__(self):
+		self.proxies = {
+				'http': 'http://23.27.197.200:24801',
+				'http': 'http://23.27.197.201:24801',
+				'http': 'http://23.27.197.202:24801',
+				'http': 'http://23.27.197.203:24801',
+				'http': 'http://23.27.197.204:24801',
+				'http': 'http://23.27.197.205:24801',
+			}
+		self.url = 'http://mynimo.com/'
 
 
-	def __request(self, keyword,  page_counter):
-		self.params['q'] = keyword
-		self.params['page'] = page_counter
-		return requests.get(self.url, params=self.params, proxies=self.proxies, timeout=10.0).text
+	def __request(self, q,  page, searchType, searchCategory):
+		to_request = self.url + searchType + '/search/'
+		payload = {'q': q, 'page': page, 'searchType': searchType, 'searchCategory': searchCategory}
+		return requests.get(to_request, params=payload, proxies=self.proxies, timeout=10.0)
 
 
-	def __scrape(self, jobs):
+	def __scrape(self, jobs, keyword):
 		for job in jobs:
 			databit = OrderedDict()
-			databit['keyword'] = self.params['q']
+			databit['keyword'] = keyword
 			databit['job_title'] = job.find_all('td')[0].find(attrs='jobTitleLink').string
 			databit['company'] = job.find_all('td')[2].string.strip()
 			location = job.find_all('td')[1]
+			
 			try:
 				address = location.find(attrs='address')
 				databit['location'] = address.string + ', ' + address.previous_element.previous_element.strip()
@@ -32,28 +39,27 @@ class Scraper:
 				databit['location'] = location.string.strip()
 			
 			databit['short_description'] = ' '.join(job.find_next('tr').find(attrs='searchContent').text.encode('utf-8').split())
-			self.__append_to_json(databit)
+
+			with open('data.json', 'a') as output:
+				output.write(json.dumps(databit, indent=4))
+			
 			print 'EXTRACTED:\t' + databit['job_title'].encode('utf-8')
 
 
-	def __append_to_json(self, to_write):
-		with open('data.json', 'a') as output:
-			output.write(json.dumps(to_write, indent=4) + ',\n')
-		output.close()
-
-
-	def execute(self):
+	def search(self, keywords, searchType='jobs', searchCategory=''):
 		page_counter = 1
-		
-		for keyword in self.params['keywords']:
-			parser = BeautifulSoup(self.__request(keyword, page_counter))
+
+		for keyword in keywords:
+			request = self.__request(keyword, page_counter, searchType, searchCategory)
+			parser = BeautifulSoup(request.text)
 			
 			while parser.find(attrs='jobs_table'):
-				print 'Executing scraper to page ' + str(page_counter) + ' of ' + self.url + '?q=' + keyword +' ...'
+				print 'Executing scraper to page', page_counter, 'of', self.url + '?q=' + keyword, '...'
 				jobs = parser.find_all(attrs={'class': 'aJobS'})
-				self.__scrape(jobs)
+				self.__scrape(jobs, keyword)
 				page_counter += 1
-				parser = BeautifulSoup(self.__request(keyword, page_counter))
+				request = self.__request(keyword, page_counter, searchType, searchCategory)
+				parser = BeautifulSoup(request.text)
 
 			page_counter = 1
 
@@ -64,8 +70,5 @@ class Scraper:
 
 if __name__ == '__main__':
 
-	payload = {'keywords': ['nursing'], 'searchType': 'jobs', 'searchCategory': ''}
-	s = Scraper('http://cebu.mynimo.com/', payload)
-	
-	cProfile.run('s.execute()')
-	# s.execute()
+	s = MynimoWebScraper()
+	s.search(['nursing', 'java'])
