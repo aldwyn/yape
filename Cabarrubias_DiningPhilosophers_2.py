@@ -67,6 +67,7 @@ class Philosopher(Thread):
 class DiningPhilosophersProblem:
 	
 	def __init__(self, size=5, eat_delay=0):
+		logging.basicConfig(filename='data.log', level=logging.INFO, format='%(message)s')
 		self.philosophers = []
 		self.fork_list = []
 
@@ -81,15 +82,9 @@ class DiningPhilosophersProblem:
 
 		
 	def run_threads(self):
-		logging.basicConfig(filename='data.log', level=logging.INFO, format='%(message)s')
-
 		for philosopher in self.philosophers:
 			philosopher.start()
 
-		for philosopher in self.philosophers:
-			philosopher.join()
-
-		# log_info('All philosophers have dined and left.')
 
 
 def log_info(message):
