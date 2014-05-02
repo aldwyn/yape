@@ -1,3 +1,4 @@
+from Cabarrubias_Queue import *
 from bs4 import BeautifulSoup
 from collections import OrderedDict
 from threading import Thread, Lock
@@ -5,6 +6,10 @@ import logging
 import requests
 import json
 import cProfile
+
+
+logging.basicConfig(filename='scraped.json', level=logging.WARNING, format='%(message)s')
+requests_log = logging.getLogger('requests')
 
 
 class Keyword:
@@ -29,6 +34,8 @@ class Worker(Thread):
 		self.url = 'http://mynimo.com/'
 		self.searchType = searchType
 		self.searchCategory = searchCategory
+		self.searchCounts = 0
+		self.condition = True
 		self.keyword = None
 		self.queue = None
 		self.workers = None
@@ -38,7 +45,8 @@ class Worker(Thread):
 		self.keyword = keyword
 
 
-	def __conclude():
+	def __conclude(self):
+		print '%d searches for %s' % (self.searchCounts, self.keyword)
 		self.workers.remove(self)
 
 
@@ -64,24 +72,24 @@ class Worker(Thread):
 			
 			databit['short_description'] = ' '.join(job.find_next('tr').find(attrs='searchContent').text.encode('utf-8').split())
 
-			logging.info(json.dumps(databit, indent=4))
-			
-			print 'EXTRACTED:\t' + databit['job_title'].encode('utf-8')
+			requests_log.warning(json.dumps(databit, indent=4))
 
 
 	def __search(self):
 		page_counter = 1
-
+		
 		request = self.__request(page_counter)
 		parser = BeautifulSoup(request.text)
 		
 		while parser.find(attrs='jobs_table'):
 			print 'Executing scraper to page', page_counter, 'of', self.url + '?q=' + self.keyword, '...'
 			jobs = parser.find_all(attrs={'class': 'aJobS'})
+			self.searchCounts += len(jobs)
 			self.__scrape(jobs)
 			page_counter += 1
 			request = self.__request(page_counter)
 			parser = BeautifulSoup(request.text)
+
 	
 
 	def set_queue(self, queue):
@@ -93,37 +101,35 @@ class Worker(Thread):
 
 
 	def run(self):
-		front = self.queue[0]
-		while not front.lock.locked():
-			front.lock.acquire()
-			self.__set_keyword(front.name)
-			front.lock.release()
-			self.queue.remove(front)
-			self.__search()
-
+		while self.condition:
+			if not self.queue.front.lock.locked():
+				front = self.queue.dequeue()
+				self.condition = False
+				with front.lock:
+					self.__set_keyword(front.name)
+		
+		self.__search()
 		self.__conclude()
-
-
 
 
 
 class MynimoWebScraper:
 	
 	def __init__(self, keywords, searchType='jobs', searchCategory=''):
-		logging.basicConfig(filename='scraped.json', level=logging.INFO, format='%(message)s')
 		self.searchType = searchType
 		self.searchCategory = searchCategory
 
-		self.queue = []
+		self.queue = Queue()
 		self.workers = []
 		for i in xrange(0, len(keywords)):
-			self.queue.append(Keyword(keywords[i]))
+			self.queue.enqueue(Keyword(keywords[i]))
 			self.workers.append(Worker(searchType=searchType, searchCategory=searchCategory))
 			self.workers[i].set_queue(self.queue)
 			self.workers[i].set_workers(self.workers)
 
 
 	def run_threads(self):
+
 		for worker in self.workers:
 			worker.start()
 
@@ -131,5 +137,5 @@ class MynimoWebScraper:
 
 if __name__ == '__main__':
 
-	s = MynimoWebScraper(['python', 'java'])
+	s = MynimoWebScraper(['python', 'java', 'php', 'ruby', 'rails'])
 	s.run_threads()

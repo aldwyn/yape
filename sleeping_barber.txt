@@ -1,0 +1,28 @@
+For completion on May 2, 2014 6pm:
+
+1. Implement Sleeping Barber problem using semaphore.
+
+Constraints:
+1. There is only 1 barber.
+2. The barber can only service 1 customer at a time.
+3. Customers have priorities(FIFO).
+4. The barber shop waiting lounge can only accomodate a limited number of customers.
+5. A customer in the waiting lounge is allowed to leave
+6. Because of different hair and styling conditions, the service time varies.
+
+To end the simulation, designate a customer to be the last customer. After the barber services 
+this customer, the simulation ends. This is called the poison-pill approach.
+
+Use the logging module to log the simulation.
+
+Do not use the built in Python queue. Implement your own queue.
+
+2. Modify your scraper application to include the ff requirements (aside from comments you received):
+a. use a pool of threads to fetch, extact, and save data
+b. keywords have priorities (FIFO)
+c. replace the custom file storing routine with Python logging
+
+Do not use the built in Python queue. Implement your own queue
+Use the poison-pill approach to gracefully end your threads
+
+3. Modification to Dining Philosopher implementation.

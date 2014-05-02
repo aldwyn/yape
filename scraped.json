@@ -1,18 +1,58 @@
-Starting new HTTP connection (1): 23.27.197.205
-Starting new HTTP connection (1): 23.27.197.205
+{
+    "keyword": "ruby", 
+    "job_title": "Ruby on Rails Developers - Mid Level & Senior Level", 
+    "company": "Roccatech", 
+    "location": "Skyrise 3, IT Park, Cebu City, Cebu", 
+    "short_description": "... two mid level and one senior to expand our Uk team of 9 Ruby on Rails developers based in London Uk. \u00a0 With a little help from Ruby on Rails, Rspec, CouchDB, Jquery(Javascript), CSS2/3 and HTML we are ..."
+}
+{
+    "keyword": "ruby", 
+    "job_title": "Senior Ruby Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... work environment!\u200b\u200b SENIOR RUBY DEVELOPER \u00a0 Qualifications: Bachelor degree ... With 4+ years of professional experience in building solid Ruby on Rails applications Full-stack or back-end developer ..."
+}
+{
+    "keyword": "ruby", 
+    "job_title": "Agile PHP Web Application Developer I, II, III", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... Apache, Java, Javascript, jQuery, Linux, \u00a0Python, Ruby on Rails, Major PHP frameworks(CakePHP, CodeIgniter), PHP CMS frameworks ... Mobile computing (Objective-C, CocoA, Android), C++/Python/Ruby/Java (Advanced), Application architecture/Systems architecture, DB ..."
+}
+{
+    "keyword": "ruby", 
+    "job_title": "Senior .Net Development Role", 
+    "company": "Isell Philippines Inc.", 
+    "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
+    "short_description": "... value: PHP, MySQL, Apache Python and/or Ruby scripting languages Other Requirements Monitoring ..."
+}
+{
+    "keyword": "ruby", 
+    "job_title": "User Interface / User Experience Designer", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... familiarity with Server-Side Programming (PHP, Python, Ruby, Perl, etc.) XHTML, XML experience is a plus ..."
+}
+{
+    "keyword": "python", 
+    "job_title": "Agile PHP Web Application Developer I, II, III", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... applications using PHP, SQL, MySQL and/or Java, Python, RoR, C++ Experience with AJAX, Javascript and HTML ... Ajax, Apache, Java, Javascript, jQuery, Linux, \u00a0Python, Ruby on Rails, Major PHP frameworks(CakePHP, CodeIgniter), PHP CMS ..."
+}
+{
+    "keyword": "python", 
+    "job_title": "Web Developers (Salary up to 40k \u0096 80k + Benefits, Daytime Job)", 
+    "company": "NL Business Solutions", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... to hire WEB DEVELOPERS with excellent Javascript, Python, JQuery, PostgreSQL, MongoDB and C++ background to be part of their ... discipline Must have excellent Javascript, Python, JQuery, PostgreSQL, MongoDB and C++ background ..."
+}
 {
     "keyword": "python", 
     "job_title": "Senior .Net Development Role", 
     "company": "Isell Philippines Inc.", 
     "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
     "short_description": "... would be of value: PHP, MySQL, Apache Python and/or Ruby scripting languages Other Requirements ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "Java Developers", 
-    "company": "Roccatech", 
-    "location": "Skyrise 3, IT Park, Cebu City, Cebu", 
-    "short_description": "... We are looking for highly experienced and driven Java Developers to join our company and work with our highly experienced UK ... web development team.\u00a0 \u00a0 JAVA DEVELOPERS \u00a0 Responsibilities: ..."
 }
 {
     "keyword": "python", 
@@ -22,25 +62,11 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "... Very comfortable with Windows and Linux, Powershell and Python, physical hardware management and AWS cloud deployments. AWS as ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Ruby on Rails Developers - Mid Level & Senior Level", 
-    "company": "Roccatech", 
-    "location": "Skyrise 3, IT Park, Cebu City, Cebu", 
-    "short_description": "Roccatech is a UK-owned, IT Park Cebu based dynamic internet business involved in recruitment, travel, digital marketing and outsourcing. We are looking for two mid level and one senior to expand our Uk team of 9 Ruby on Rails developers based i ..."
-}
-{
     "keyword": "python", 
     "job_title": "User Interface / User Experience Designer", 
     "company": "Chromedia", 
     "location": "Cebu City, Cebu", 
     "short_description": "... least basic familiarity with Server-Side Programming (PHP, Python, Ruby, Perl, etc.) XHTML, XML experience is a plus ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "J2EE / Java Developer", 
-    "company": "Isell Philippines Inc.", 
-    "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
-    "short_description": "J2EE / JAVA DEVELOPE R\u00a0 (AUD250\u00a0Sign in Bonus & AUD 250 Referral ... Job Requirements: 3-5 years Java/Web developing experience Solid J2SE knowledge ..."
 }
 {
     "keyword": "python", 
@@ -51,17 +77,332 @@ Starting new HTTP connection (1): 23.27.197.205
 }
 {
     "keyword": "java", 
+    "job_title": "Ruby on Rails Developers - Mid Level & Senior Level", 
+    "company": "Roccatech", 
+    "location": "Skyrise 3, IT Park, Cebu City, Cebu", 
+    "short_description": "Roccatech is a UK-owned, IT Park Cebu based dynamic internet business involved in recruitment, travel, digital marketing and outsourcing. We are looking for two mid level and one senior to expand our Uk team of 9 Ruby on Rails developers based i ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Java Developers", 
+    "company": "Roccatech", 
+    "location": "Skyrise 3, IT Park, Cebu City, Cebu", 
+    "short_description": "... We are looking for highly experienced and driven Java Developers to join our company and work with our highly experienced UK ... web development team.\u00a0 \u00a0 JAVA DEVELOPERS \u00a0 Responsibilities: ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Senior PHP Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "RipeConcepts, Inc. \u00a0provides solutions to Creative, Design, Marketing and Outsourcing Needs. We create original designs for print, corporate identity, websites, production and events, product packaging, and more. We are based in Cebu City ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Senior Ruby Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "RipeConcepts, Inc. \u00a0provides solutions to Creative, Design, Marketing and Outsourcing Needs. We create original designs for print, corporate identity, websites, production and events, product packaging, and more. We are based in Cebu City ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Senior Programmer", 
+    "company": "Dedon Manufacturing, Inc.", 
+    "location": "Riverside, Canduman, Mandaue City, Cebu", 
+    "short_description": "DEDON \u00a0is a German luxury brand for outdoor furniture, with its headquarters in L\u00fcneburg, Germany, and manufacturing facility in Cebu, Philippines. Founded by Bobby Dekeyser, who created DEDON after retirement from professional football, DE ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Full Stack C# .NET Web Developer", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "Chromedia \u2122 is a website development and mobile application startup with members collaborating from around the globe. We are a US-registered corporation with offices in Colorado, USA and a Philippine SEC approved subsidiary in Cebu. ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Content Process Engineer", 
+    "company": "Innodata Knowledge Services, Inc", 
+    "location": "HVG IT Park, Subangdaku, Mandaue City, Cebu", 
+    "short_description": "... Visual Basic 6.0, ASP.net, PHP and\u00a0Java. \u2022Should\u00a0have the skills to test applications and provide ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Agile PHP Web Application Developer I, II, III", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... web/enterprise applications using PHP, SQL, MySQL and/or Java, Python, RoR, C++ Experience with AJAX, Javascript and ... Familiar with/interested in: Ajax, Apache, Java, Javascript, jQuery, Linux, \u00a0Python, Ruby on Rails, Major PHP ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Associate Software Engineer", 
+    "company": "Sykes Asia Inc.", 
+    "location": "4th Floor Synergis I.T. Center F. Cabahug St. , Panagdait Mabolo, Cebu City, Cebu", 
+    "short_description": "... or Dreamweaver Basic Knowledge of C based languages (Java, C++, Visual C++) Basic Knowledge of T-SQL Must have strong IT ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Associate Sofware Engineer", 
+    "company": "Sykes Asia Inc.", 
+    "location": "4th Floor Synergis I.T. Center F. Cabahug St. , Panagdait Mabolo, Cebu City, Cebu", 
+    "short_description": "... or Dreamweaver Basic Knowledge of C based languages (Java, C++, Visual C++) Basic Knowledge of T-SQL Must have strong IT ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Web / Software Developers (Code: WSD-Applicant)", 
+    "company": "SSI Phils. Inc.", 
+    "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
+    "short_description": "SSI is the premier global provider of sampling, data collection and data analytic solutions for survey research, reaching respondents in 86 countries via Internet, telephone, mobile/wireless and mixed-access offerings. SSI staff operates from 25 off ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Creative Graphic Artist / Web Design", 
+    "company": "SOUND CONNECTION Philippines Inc.", 
+    "location": "JY SQUARE MALL, Cebu City, Cebu", 
+    "short_description": "SOUND CONNECTION Philippines Inc. \u00a0 seeks\u00a0 Creative Graphic Artists & Web Designers \u00a0with a long term commitment for a long lasting career. Qualified candidates must be equipped with the right skills for our\u00a0 Graph ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Web Developers (Salary up to 40k \u0096 80k + Benefits, Daytime Job)", 
+    "company": "NL Business Solutions", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "Our client, a well established Swiss based Software Development company engaged in aviation projects as well as other IT Development Projects in Switzerland is looking urgently to hire WEB DEVELOPERS with excellent Javascript, Python, JQuery, Post ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Android Developers (Salary up to 40k \u0096 100k + Benefits, Daytime Job)", 
+    "company": "NL Business Solutions", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... urgently to hire ANDROID DEVELOPERS with excellent JAVA & C++ background to be part of their pioneer team in Cebu . ... Must have excellent background in Android Development in Java and C++ Creative, enthusiastic, committed, dependable, and ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Android Developer", 
+    "company": "Exxpert Communications, Inc.", 
+    "location": "Mandaue City, Cebu", 
+    "short_description": "... subversiion, mercurial and GIT Strong knowledge of JAVA Good visual design sense and creative drive\u00a0 Must be a ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Web Designer", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Software Development Engineer", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... \u00a0\u00a0\u00a0\u00a0- LANGUAGE: C, C++, C#, Basic Java, Javascript, SQL, XML, HTML, CSS \u00a0\u00a0\u00a0\u00a0- LIBRARY/ FRAMEWORK: Windows DDK, Windows SDK, Hibernate, JSF (Java Server Faces), JSP, J2EE, Spring, .NET, Struts, dojo, Eclipse Plugin ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Senior Web Developers (10)", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "PHP Developer (10)", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "Java Developer", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... We are urgent hiring for a JAVA DEVELOPER Responsibilities This is a great opportunity for ... on exciting projects. \u2022 Development with Java Enterprise technologies \u2022 Development using Spring, OSGI or ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Urgent | Be a Banking Support Specialist and Enjoy Incentives!* ", 
+    "company": "AEGIS", 
+    "location": "Tower 1 (Beside Skyrise Tower 2) Villa St., Cebu IT Park, Lahug, Cebu City, Cebu", 
+    "short_description": "Aegis is a global consulting, technology, outsourcing and training & education \u00a0company committed to impacting clients\u2019 business outcomes by focusing on enhancing customer experience across all touch points and channels. Aegis was fou ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "URGENT NEED for Call Center Representatives! Apply now!", 
+    "company": "Cebu Recruitment Agency", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... (Considered a plus) \u00a0 SALARY: PHP 14,000 up to PHP 35,000 (depending on experience) How to Apply - You may ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Experienced Human Resource / Training Executive (Salary Php 25,000 \u0096 40,000.00)", 
+    "company": "Desired Ranking Solutions Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... Experienced Human Resource / Training Executive (Salary Php 25,000 \u2013 40,000.00) \u00a0 Responsibilities: ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Tech. Support Associates-Signing Bonus-Php25,000 | Great Environment | Rewarding Career & Incentives", 
+    "company": "Executive Boutique Call Center", 
+    "location": "12/F Skyrise 2, Cebu IT Park, Lahug, Cebu City, Cebu", 
+    "short_description": "... our website: http://ebcallcenter.com/eb_careers.php ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "URGENT -\u00a0Experienced Verification / Fraud Analyst for a PIONEER account! Php 20,000 Signing Bonus!", 
+    "company": "Executive Boutique Call Center", 
+    "location": "12/F Skyrise 2, Cebu IT Park, Lahug, Cebu City, Cebu", 
+    "short_description": "... Verification / Fraud Analyst for a PIONEER account! Php 20,000 Signing Bonus! \u00a0 We have an immediate opening ... awaits you: \u00a0 Competitive Pay + Php 20,000 Signing Bonus* \u00a0 Primary ... our website:\u00a0 http://ebcallcenter.com/eb_careers.php \u00a0 Walk-ins are welcome from 9 AM \u2013 4 PM on ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Experienced Marketing Virtual Assistant (Part-Time) Day Shift (for My Virtual Workforce)", 
+    "company": "PA Everyday", 
+    "location": "Room 202 Keppel Bldg, Cebu Business Park, Cebu City, Cebu", 
+    "short_description": "... \u00a0 Sign-on Bonus: Php 1,000 will be given after 1 month from hire date \u00a0 ... Day Shift \u00a0 Part Time Rate: Php 12,000-15,000 \u00a0 Start Date: ASAP ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Senior PHP Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... work environment!\u200b\u200b SENIOR PHP DEVELOPER \u00a0 Qualifications: Bachelor degree holder ... end users Extensive experience with web development (PHP, MySQL, HTML, CSS, Javascript) Experience with scalable, cloud based ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Senior Ruby Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... building scalable web applications Experience with PHP programming Experience with Javascript Ability to work well in ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Telesales Professionals", 
+    "company": "Insta Call Center Solutions Inc.", 
+    "location": "1203 Keppel Center, Cebu Business Park, Cebu City, Cebu City, Cebu", 
+    "short_description": "... Benefits: - Good income up to 40 000 PHP and high commission (income will be calculated on experience). - Fixed ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "DATA ANALYST ", 
+    "company": "Contact Solutions Research and Business Process Outsourcing", 
+    "location": "Infront of Latondena Philippines , Mandaue City, Cebu", 
+    "short_description": "... great opportunities for career growth! Compensation: Php 8,000-10,000/month Job Description: Responsible for collecting ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Systems Administrator (Web & Network)", 
+    "company": "Company Confidential", 
+    "location": "Mandaue City, Cebu", 
+    "short_description": "... with WHM & cPanel Working knowledge of Apache, PHP & MySQL Network Systems Asterisk or FreePBX ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web Developer - PHP-Based CMSs", 
+    "company": "CommercialReach Inc", 
+    "location": "Banilad, Cebu City, Cebu", 
+    "short_description": "If you are a Front End Web Developer with good PHP skills and extensive CMS experience (such as WordPress, Drupal, etc) please ... have experience with WordPress, Drupal, and/or other PHP-driven CMS and a thorough understanding of browser compatibility issues ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Content Process Engineer", 
+    "company": "Innodata Knowledge Services, Inc", 
+    "location": "HVG IT Park, Subangdaku, Mandaue City, Cebu", 
+    "short_description": "... \u2022Knowledgeable\u00a0in Visual Basic 6.0, ASP.net, PHP and\u00a0Java. \u2022Should\u00a0have the skills to test ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Agile PHP Web Application Developer I, II, III", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... with our clients. We are currently looking for a PHP Web Developer to add to our growing team. \u00a0 At any ... development opportunities. \u00a0 AGILE PHP WEB APPLICATION DEVELOPER I, II, III \u00a0 Ideal ... of experience creating web/enterprise applications using PHP, SQL, MySQL and/or Java, Python, RoR, C++ Experience with ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Recruitment Specialist (Full-time) Day Shift", 
+    "company": "PA Everyday", 
+    "location": "Room 202 Keppel Bldg, Cebu Business Park, Cebu City, Cebu", 
+    "short_description": "... DAY SHIFT \u00a0 Sign-on Bonus: Php 1,000 will be given a month after start date Level: Junior ... to 5:00 PM | Monday to Friday Full Time Rate: Php 20,000 \u2013 25,000 Start Date: ASAP \u00a0 ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Sr. Recruiter (Full-time) Day Shift", 
+    "company": "PA Everyday", 
+    "location": "Room 202 Keppel Bldg, Cebu Business Park, Cebu City, Cebu", 
+    "short_description": "... DAY SHIFT \u00a0 Sign-on Bonus: Php 1,000 will be given a month after start date Level: Lead Recruiter ... to 5:00 PM | Monday to Friday Full Time Rate: Php 25,000-30,000 Start Date: ASAP \u00a0 Job ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Property Manager (Full-Time) Day Shift", 
+    "company": "PA Everyday", 
+    "location": "Room 202 Keppel Bldg, Cebu Business Park, Cebu City, Cebu", 
+    "short_description": "... DAY SHIFT \u00a0 Sign-on Bonus: Php 1,000 will be given a month after start date Level: Tier 5 ... to 4:00 PM | Monday to Friday Full Time Rate: Php 25,000 \u2013 30,000 Start Date: ASAP \u00a0 ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web / Software Developers (Code: WSD-Applicant)", 
+    "company": "SSI Phils. Inc.", 
+    "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
+    "short_description": "... with one or more of the following programming skill sets: PHP, HTML/CSS/JavaScript/JQuery, Delphi, C#/ASP.NET, Flex/ActionScript At ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "PHP Programmer", 
+    "company": "SOUND CONNECTION Philippines Inc.", 
+    "location": "JY Square Mall, Cebu City, Cebu", 
+    "short_description": "... SOUND CONNECTION Philippines is seeking a SENIOR PHP LEAD PROGRAMMERS and Senior Website Developers that will assist the ... We are looking to hire a well-seasoned Senior PHP Lead Programmers who could manage seven e-Commerce stores that are ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Creative Graphic Artist / Web Design", 
+    "company": "SOUND CONNECTION Philippines Inc.", 
+    "location": "JY SQUARE MALL, Cebu City, Cebu", 
+    "short_description": "... on various\u00a0Programming Languages, \u00a0 PHP, Wordpress, JavaScript, CSS, HTML , MySQL\u00a0 and\u00a0SEO is not ... Some Knowledge in Programming Languages such as PHP, CSS, HTML & \u00a0JavaScript is an advantage! Updated ..."
+}
+{
+    "keyword": "rails", 
+    "job_title": "Ruby on Rails Developers - Mid Level & Senior Level", 
+    "company": "Roccatech", 
+    "location": "Skyrise 3, IT Park, Cebu City, Cebu", 
+    "short_description": "... level and one senior to expand our Uk team of 9 Ruby on Rails developers based in London Uk. \u00a0 With a little help from Ruby on Rails, Rspec, CouchDB, Jquery(Javascript), CSS2/3 and HTML we are currently ..."
+}
+{
+    "keyword": "java", 
+    "job_title": "J2EE / Java Developer", 
+    "company": "Isell Philippines Inc.", 
+    "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
+    "short_description": "... they are successfully hired. \u00a0 J2EE / JAVA DEVELOPER \u00a0 (AUD250 Sign in Bonus & AUD 250 Referral ... Job Requirements: 3-5 years Java/Web developing experience Solid J2SE knowledge ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Warehouseman (for Permanent Relocation - Gensan, CDO, Iloilo, Bacolod, Manila)", 
+    "company": "Simon Group of Companies", 
+    "location": "Gensan, CDO, Iloilo, Bacolod, Manila, Outside Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES The Simon Group of Companies is a family-owned integrated marketing enterprise that draws upon the global market to provide the goods and services needed by its customers. Our business operation covers the entire Phil ..."
+}
+{
+    "keyword": "rails", 
+    "job_title": "Senior Ruby Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... years of professional experience in building solid Ruby on Rails applications Full-stack or back-end developer Experience with ..."
+}
+{
+    "keyword": "java", 
     "job_title": "Programmer", 
     "company": "University of San Carlos", 
     "location": "Cebu City, Cebu", 
     "short_description": "UNIVERSITY OF SAN CARLOS \u00a0 Immediate Hiring \u00a0 PROGRAMMER \u00a0 Qualifications: - A graduate of BS Information Technology or Computer Science - Preferably with basic b ..."
 }
 {
-    "keyword": "python", 
+    "keyword": "php", 
+    "job_title": "Building Staff", 
+    "company": "Simon Group of Companies", 
+    "location": "78 Plaridel Street, Cebu City, Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES The Simon Group of Companies is a family-owned integrated marketing enterprise that draws upon the global market to provide the goods and services needed by its customers. Our business operation cove ..."
+}
+{
+    "keyword": "rails", 
     "job_title": "Agile PHP Web Application Developer I, II, III", 
     "company": "Chromedia", 
     "location": "Cebu City, Cebu", 
-    "short_description": "... applications using PHP, SQL, MySQL and/or Java, Python, RoR, C++ Experience with AJAX, Javascript and HTML ... Ajax, Apache, Java, Javascript, jQuery, Linux, \u00a0Python, Ruby on Rails, Major PHP frameworks(CakePHP, CodeIgniter), PHP CMS ..."
+    "short_description": "... Java, Javascript, jQuery, Linux, \u00a0Python, Ruby on Rails, Major PHP frameworks(CakePHP, CodeIgniter), PHP CMS frameworks ..."
 }
 {
     "keyword": "java", 
@@ -71,11 +412,11 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "... Knowledge of ad tags, including iFrame, HTML, XML, Java Script, Flash Compensation and Benefits: ..."
 }
 {
-    "keyword": "python", 
-    "job_title": "Web Developers (Salary up to 40k \u0096 80k + Benefits, Daytime Job)", 
-    "company": "NL Business Solutions", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "... to hire WEB DEVELOPERS with excellent Javascript, Python, JQuery, PostgreSQL, MongoDB and C++ background to be part of their ... discipline Must have excellent Javascript, Python, JQuery, PostgreSQL, MongoDB and C++ background ..."
+    "keyword": "php", 
+    "job_title": "Systems & Process Improvement Associate", 
+    "company": "Simon Group of Companies", 
+    "location": "78 Plaridel Street, Cebu City, Cebu", 
+    "short_description": "... per illness . FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty Length of Service ..."
 }
 {
     "keyword": "java", 
@@ -84,13 +425,26 @@ Starting new HTTP connection (1): 23.27.197.205
     "location": "Keppel Center #906B, Cebu Business Park,, Cebu City, Cebu", 
     "short_description": "Cebu-based \u00a0ExDigita\u00a0Inc. \u00a0is a subsidiary of\u00a0Globalis\u00a0Media Inc. The company provides online advertising solutions, advertising operations support, web development services, and other technical services to clients located bot ..."
 }
-Starting new HTTP connection (1): 23.27.197.205
+{
+    "keyword": "php", 
+    "job_title": "Civil / Structural Engineers (for Permanent Relocation: MANILA)", 
+    "company": "Simon Group of Companies", 
+    "location": "for Permanent Relocation: Manila, Outside Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES A leading property developer with existing premier lands and structure in Ayala is expanding and looking for caliber personnel in its expansion. CIVIL / STRUCTURAL ENGINEERS (FOR PERMANENT RELOCAT ..."
+}
 {
     "keyword": "java", 
     "job_title": "Web Development OJT", 
     "company": "ExDigita Inc.", 
     "location": "Keppel Center #906B, Cebu Business Park,, Cebu City, Cebu", 
     "short_description": "Cebu-based \u00a0ExDigita\u00a0Inc. \u00a0is a subsidiary of\u00a0Globalis\u00a0Media Inc. The company provides online advertising solutions, advertising operations support, web development services, and other technical services to clients located bot ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Senior Web Developers (10)", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... \u2022 Hand coding HTML, CSS, JavaScript, PHP Database Work, Web Analytics, Cross Browser Optimisation, CMS Construction ..."
 }
 {
     "keyword": "java", 
@@ -100,11 +454,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "Career First Institute is a human capital solutions provider that embodies a forward-thinking disposition and reflects the dynamism, excitement and aspirations of today\u2019s modern professionals and companies. Our expertise is anchored on: Re ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "PHP Developer (10)", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... We are urgent hiring for a PHP DEVELOPER (10) Responsibilities \u2022 Wordpress/PHP \u201cfront end\u201d web developer with design background or sensitivity ... Develop a website from a PSD (from scratch) \u2022 PHP and Mysql website development primarily. Small amount of work on other CMS ..."
+}
+{
     "keyword": "java", 
     "job_title": "Graphics and User Interface Designer", 
     "company": "Career First Institute and Consulting Inc.", 
     "location": "2nd Floor JY Square Discovery Mall, 1 Salinas Drive Gorordo Ave., Lahug, Cebu City, Cebu", 
     "short_description": "Career\u00a0First\u00a0Institute \u00a0is a human capital solutions provider that embodies a forward-thinking disposition and reflects the dynamism, excitement and aspirations of today\u2019s modern professionals and companies. Our expertise is anch ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Spanish-Speaking Sales Representative", 
+    "company": "Author Solutions Philippines Inc.", 
+    "location": "6th Flr, TGU Tower, Cebu IT Park, Lahug, Cebu City, Cebu", 
+    "short_description": "... SPANISH - SPEAKING SALES REPRESENTATIVE PHP 40000 - 44000 Responsibilities: - Contact Spanish-speaking ..."
 }
 {
     "keyword": "java", 
@@ -114,11 +482,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "Career\u00a0First\u00a0Institute \u00a0is a human capital solutions provider that embodies a forward-thinking disposition and reflects the dynamism, excitement and aspirations of today\u2019s modern professionals and companies. Our expertise is anch ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Senior PHP Developer", 
+    "company": "Isell Philippines Inc.", 
+    "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
+    "short_description": "... successfully hired. \u00a0 SENIOR PHP DEVELOPER (AUD250\u00a0Sign in Bonus & AUD 250 Referral Fee) ... Experience: 3+ years of experience in PHP development including class level design Expertise in the ..."
+}
+{
     "keyword": "java", 
     "job_title": "Senior .Net Development Role", 
     "company": "Isell Philippines Inc.", 
     "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
     "short_description": "Excellent Basic Pay / Project Completion Bonus / Performance Bonus / HMO\u00a0\u00a0 Package / Trainings and updates on latest technologies. \u00a0 Looking for a developer with 5+ years\u2019 experience primary focus of this role to be th ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Lead Generation and Appointment Setting", 
+    "company": "ExDigita Inc.", 
+    "location": "Keppel Center #906B, Cebu Business Park,, Cebu City, Cebu", 
+    "short_description": "... Starting Monthly Base Salary: PHP 15,000 night shift / 13,000 day shift (including allowances) ..."
 }
 {
     "keyword": "java", 
@@ -128,11 +510,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "... any computer related course Knows programming, PHP, JAVA \u00a0 For more information about our company, visit ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Web Developer", 
+    "company": "ExDigita Inc.", 
+    "location": "Keppel Center #906B, Cebu Business Park,, Cebu City, Cebu", 
+    "short_description": "... One year of experience developing websites using PHP, MySQL, and content management systems (preferably WordPress and Drupal) ..."
+}
+{
     "keyword": "java", 
     "job_title": "CRM Developer", 
     "company": "Accenture", 
     "location": "5F Robinsons Cybergate Mall, Cebu City, Cebu", 
     "short_description": "... to extend CRM platform \u00a0\u00a0 Develop Java script \u00a0\u00a0 Develop WCF \u00a0 ... Experience with the following: \u00a0 Java Script \u00a0 Silverlight \u00a0 Web Services (WCF) ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web Development OJT", 
+    "company": "ExDigita Inc.", 
+    "location": "Keppel Center #906B, Cebu Business Park,, Cebu City, Cebu", 
+    "short_description": "... Knowledge of web site development, including: WordPress, PHP, HTML, CSS & JavaScript Knowledge of on-page SEO and ..."
 }
 {
     "keyword": "java", 
@@ -142,11 +538,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "SSI is the premier global provider of sampling, data collection and data analytic solutions for survey research, reaching respondents in 86 countries via Internet, telephone, mobile/wireless and mixed-access offerings. SSI staff operates from 25 off ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Outbound Sales", 
+    "company": "ExDigita Inc.", 
+    "location": "Keppel Center #906B, Cebu Business Park,, Cebu City, Cebu", 
+    "short_description": "... Starting Monthly Base Salary (including allowances): PHP 18,000 Unlimited Commission Potential based upon actual ... Guaranteed Minimum Monthly Commission: PHP 3,000 (guaranteed for first two months) Ongoing ..."
+}
+{
     "keyword": "java", 
     "job_title": "Web Designers (code: WD.Applicant )", 
     "company": "SSI Phils. Inc.", 
     "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
     "short_description": "SSI is the premier global provider of sampling, data collection and data analytic solutions for survey research, reaching respondents in 86 countries via Internet, telephone, mobile/wireless and mixed-access offerings. SSI staff operates from 25 off ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Programmer Analyst / Software Developer", 
+    "company": "ISL Networks Corp.", 
+    "location": "305 3/F Lilang's Guitar Bldg, M.L. Quezon, Pajo, Lapu Lapu City, Cebu", 
+    "short_description": "... Qualifications: - At least 2 years experience in PHP, MYSQL, UML, HTML5 and CSS3 - Proficient in TSQL - Proficient in ..."
 }
 {
     "keyword": "java", 
@@ -156,11 +566,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "SSI is the premier global provider of sampling, data collection and data analytic solutions for survey research, reaching respondents in 86 countries via Internet, telephone, mobile/wireless and mixed-access offerings. SSI staff operates from 25 off ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Web / Graphic Designer", 
+    "company": "Career First Institute and Consulting Inc.", 
+    "location": "2nd Floor JY Square Discovery Mall, 1 Salinas Drive Gorordo Ave., Lahug, Cebu City, Cebu", 
+    "short_description": "... CS Some Knowledge in Programming Languages such as PHP Extensive Knowledge in HTML & CSS Extensive Knowledge in ..."
+}
+{
     "keyword": "java", 
     "job_title": "Application Developer Java/J2EE", 
     "company": "IBM Solutions Delivery, Inc.", 
     "location": "TGU Tower, Cebu IT Park, Cebu City, Cebu", 
     "short_description": "... for: \u00a0 APPLICATION DEVELOPER - JAVA.CORE \u00a0 Job Description Develops applications based on Java/J2EE technology stack using Java as the programming language. This ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web Development and Technical Specialist", 
+    "company": "Career First Institute and Consulting Inc.", 
+    "location": "2nd Floor JY Square Discovery Mall, 1 Salinas Drive Gorordo Ave., Lahug, Cebu City, Cebu", 
+    "short_description": "... effectively. Must be knowledgeable in PHP - OOP, MySQL, HTML, CSS, JQuery, API, SSH. Must be willing ..."
 }
 {
     "keyword": "java", 
@@ -170,11 +594,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "... for: \u00a0 TECHNICAL TEAM LEAD - JAVA \u00a0 Job Description This role ... management of a team engaged in development/support of Java/J2EE applications. Encourages groups to work together and takes ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Senior / Lead PHP Developer", 
+    "company": "Career First Institute and Consulting Inc.", 
+    "location": "2nd Floor JY Square Discovery Mall, 1 Salinas Drive Gorordo Ave., Lahug, Cebu City, Cebu", 
+    "short_description": "... looking for: \u00a0 SENIOR / LEAD PHP DEVELOPER \u00a0 The ideal candidate should have in ... and improvement of\u00a0 multiple E-commerce stores using PHP. Required/Must have skills and experience: At least ..."
+}
+{
     "keyword": "java", 
     "job_title": "Node.JS Back-End Developer", 
     "company": "Intellmed, Inc.", 
     "location": "3rd Level of Ma. Cristina Bldg. Fuente Osme\u00f1a Blvd, Cebu City, Cebu", 
     "short_description": "IntellMed, Inc. is a HealthCare Software Company that provides support to US companies (Meditab Software Inc. and SuiteRx which have been in business since 1998). We provide an innovative suite of solutions that connect physicians, patients, pharmac ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Old Sitter & Baby Sitter (Stay-In)", 
+    "company": "Simon Group of Companies", 
+    "location": "78 Plaridel St., Cebu City, Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES \u00a0 We have the COMPETITIVE EDGE... NO to Contracting YES to Permanent Employment NO to Age, Gender & Educational Restrictions, YES to Equal Job Opportunity... \u00a0 Ou ..."
 }
 {
     "keyword": "java", 
@@ -183,13 +621,26 @@ Starting new HTTP connection (1): 23.27.197.205
     "location": "3rd Level of Ma. Cristina Bldg. Fuente Osme\u00f1a Blvd, Cebu City, Cebu", 
     "short_description": "IntellMed, Inc. is a HealthCare Software Company that provides support to US companies (Meditab Software Inc. and SuiteRx which have been in business since 1998). We provide an innovative suite of solutions that connect physicians, patients, pharmac ..."
 }
-Starting new HTTP connection (1): 23.27.197.205
+{
+    "keyword": "php", 
+    "job_title": "Magento Developer", 
+    "company": "Odusee Phils Inc", 
+    "location": "Unit 901, 9th floor The Insular Life Business Center Mindanao Ave. Cebu Busin..., Cebu City, Cebu", 
+    "short_description": "... logic - 1 to 2 years\u2019 experience in PHP, MySQL, HTML, CSS, JS, AJAX - 1 to 2 years' experience of web ..."
+}
 {
     "keyword": "java", 
     "job_title": "Software Developer Engineer", 
     "company": "NMN Global Inc.", 
     "location": "Mandaue City, Cebu", 
     "short_description": "... use one or more development language including; Java using Eclipse or any development tools for Android development. iOS ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Front-End Developer", 
+    "company": "Odusee Phils Inc", 
+    "location": "Unit 901, 9th floor The Insular Life Business Center Mindanao Ave. Cebu Busin..., Cebu City, Cebu", 
+    "short_description": "... programming logic 1 to 2 years\u2019 experience in PHP, MySQL, HTML, CSS, JS, AJAX 1 to 2 years\u2019 experience using ..."
 }
 {
     "keyword": "java", 
@@ -199,11 +650,74 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "... Projects in Switzerland is looking urgently to hire JAVA DEVELOPERS with excellent C++ background to be part of their pioneer ... in Cebu . \u00a0 JAVA DEVELOPERS (Salary up to 40k \u2013 100k + Benefits, Daytime Job) ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Calling ALL APPLICANTS! Apply with your friends and win 1,500 GC instantly!", 
+    "company": "Alorica Philippines, Inc.", 
+    "location": "5th floor Skyrise Building 1 Asiatown IT Park, Apas Lahug, Cebu City, Cebu", 
+    "short_description": "... receipt from the receptionist. Incentive of 1,500 Php woth of GC's should be claimed only on the day of referrals' ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "PHP Magento Expert", 
+    "company": "Arcanys", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... \u00a0 We are looking for: PHP MAGENTO EXPERT Qualifications: At least 2 years experience in PHP Magento development Experience in OOP is a must Good English ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Senior .Net Development Role", 
+    "company": "Isell Philippines Inc.", 
+    "location": "Suite 901, 9th Floor, WT Corporate Tower Mindano Avenue, Cebu Business Distri, Cebu City, Cebu", 
+    "short_description": "... technologies which would be of value: PHP, MySQL, Apache Python and/or Ruby scripting languages ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Customer Service Representative", 
+    "company": "724 Care Inc.", 
+    "location": "Ground Fr. Square One Complex, Subangdaku (Landmark: Infront of Metrobank Sub..., Mandaue City, Cebu", 
+    "short_description": "... and inpatient hospitalization - Life Insurance of Php 50,000 - Dental Insurance - Free meals daily at 724Cafe - Fun ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Magento Programmer $15-20k", 
+    "company": "Exxpert Communications, Inc.", 
+    "location": "WiPro Building, Ayala , Cebu City, Cebu", 
+    "short_description": "... - Further skills to compliment your talent will be PHP, MySql, cSS3,HTML5, Jquery. \u00a0 You will be working with ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Computer Programmer", 
+    "company": "Orient Express Recruitment Services Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... of any computer related course Knows programming, PHP, JAVA \u00a0 For more information about our company, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Programmers (Code: Prog JS Applicant)", 
+    "company": "SSI Phils. Inc.", 
+    "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
+    "short_description": "... - Server side scripting preferably PHP is a plus \u00a0\u00a0\u00a0\u00a0\u00a0 - Knowledge in AJAX is a plus ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Software Developer Engineer", 
+    "company": "NMN Global Inc.", 
+    "location": "Mandaue City, Cebu", 
+    "short_description": "... Developer Windows Phone Mobile Development. PHP and MySQL for web development. SQL Server 2008 R2 or higher. ... development lifecycle. Create web applications using PHP and C++ Implement web interfaces using XHTML, CSS, and JavaScript ..."
+}
+{
     "keyword": "java", 
     "job_title": "SEO Analyst", 
     "company": "Exxpert Communications, Inc.", 
     "location": "Mabolo / IT Park, Cebu City, Cebu", 
     "short_description": "EXXPERT COMMUNICATIONS, INC. Is currently in need of: \u00a0 SEO ANALYST \u00a0 Job Purpose: This position is responsible for the development of a holistic SEO strategy designed to drive qualifie ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web Application QA Tester", 
+    "company": "Exxpert Communications, Inc.", 
+    "location": "Mabolo / IT Park, Cebu City, Cebu", 
+    "short_description": "... Other Positions urgently needed: \u00a0 1. PHP Developer\u00a0 2. FrontEnd Developer (CSS & HTML) 3. Web ..."
 }
 {
     "keyword": "java", 
@@ -213,11 +727,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "EXXPERT COMMUNICATIONS, INC. \u00a0 Our Wonderful Team is urgently hiring for \u00a0 SENIOR FRONT END WEB DEVELOPERS \u00a0 Your magic skills should include... Minimum Bachelor of Com ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "PHP SugarCRM Programmer", 
+    "company": "Exxpert Communications, Inc.", 
+    "location": "Mabolo / IT Park, Cebu City, Cebu", 
+    "short_description": "... Is currently in need of: \u00a0 PHP SUGARCRM PROGRAMMER \u00a0 If you are a PHP Programmer specializing in SugarCRM development/programming, please read ..."
+}
+{
     "keyword": "java", 
     "job_title": "Magento Developer", 
     "company": "Global Fusion / A & E Consulting, LLC", 
     "location": "11/F Skyrise 2, Cebu IT Park, Lahug, Cebu City, Cebu", 
     "short_description": "Global Fusion is a premier web / mobile development firm specializing in scalable eCommerce, engaging user experiences, and conversion-focused site strategy. We pride ourselves in being a full-service and cost-efficient partner that enables ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Senior Front End Web Developers", 
+    "company": "Exxpert Communications, Inc.", 
+    "location": "Mabolo / IT Park, Cebu City, Cebu", 
+    "short_description": "... experience. Experience with HTML5, JavaScript, CSS, PHP and development using responsive design. Experience with Test-Driven ..."
 }
 {
     "keyword": "java", 
@@ -227,11 +755,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "Chromedia \u2122 is a website development and mobile application startup with members collaborating from around the globe. We are a US-registered corporation with offices in Colorado, USA and a Philippine SEC approved subsidiary in Cebu. &nbs; ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Architect / Project Engineer", 
+    "company": "Cebu Home and Builders Centre", 
+    "location": "A.S. Fortuna St., Banilad, Mandaue City, Cebu", 
+    "short_description": "... Architecture, or Engineering Compensation Plan: Php 15,000-18,000 \u00a0 Familiarity with AutoCad 2D and ..."
+}
+{
     "keyword": "java", 
     "job_title": "Java Developers", 
     "company": "Arcanys", 
     "location": "Capitol Compound, Cebu City, Cebu", 
     "short_description": "... \u00a0 We are looking for: JAVA DEVELOPERS Qualifications: \u2022 At least 5 years ... the IT industry \u2022 At least 4 years experience in java programming \u2022 Self-motivated and passionate about new technologies ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Magento Developer", 
+    "company": "Global Fusion / A & E Consulting, LLC", 
+    "location": "11/F Skyrise 2, Cebu IT Park, Lahug, Cebu City, Cebu", 
+    "short_description": "... new and existing web development projects using Magento/PHP and be a resource person for other web developers. \u00a0 ... new and maintain existing web projects using Magento/PHP Install Magento Extensions and install various third party ..."
 }
 {
     "keyword": "java", 
@@ -241,11 +783,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "Crowd\u00a0Metric\u00a0Solutions, Inc.\u00a0 is a web development and online marketing company that is filled with bright, energetic, and accomplished professionals who have a deep passion for the business and believe that what we do everyday makes a ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "User Interface / User Experience Designer", 
+    "company": "Chromedia", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... At least basic familiarity with Server-Side Programming (PHP, Python, Ruby, Perl, etc.) XHTML, XML experience is a plus ..."
+}
+{
     "keyword": "java", 
     "job_title": "Senior PHP Programmer", 
     "company": "Crowd Metric Solutions, Inc.", 
     "location": "Cebu City, Cebu", 
     "short_description": "Crowd\u00a0Metric\u00a0Solutions, Inc.\u00a0 is a web development and online marketing company that is filled with bright, energetic, and accomplished professionals who have a deep passion for the business and believe that what we do everyday makes a ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "PHP Developer", 
+    "company": "Arcanys", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... \u00a0 We are looking for: PHP DEVELOPER Qualifications: - At least 2 years experience in the IT industry - At least 2 years experience in PHP development - Experience in OOP approach is a plus - Good English ..."
 }
 {
     "keyword": "java", 
@@ -255,11 +811,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Senior Web / PHP Developer / Architect / Team Lead", 
+    "company": "Arcanys", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... looking for: \u00a0 SENIOR WEB / PHP DEVELOPER / ARCHITECT / TEAM LEAD \u00a0 Key ..."
+}
+{
     "keyword": "java", 
     "job_title": "Applications Developer", 
     "company": "Orient Express Recruitment Services Inc", 
     "location": "Osme\u00f1ia Blvd., Cebu City, Cebu", 
     "short_description": "... or other related courses. - With experience on Java, Javascript, Jquery, iOS, Android application development ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "PHP Programmer (Entry-Level)", 
+    "company": "Crowd Metric Solutions, Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... to the highest standard. \u00a0 PHP PROGRAMMER\u00a0(ENTRY-LEVEL) \u00a0 We are ... PROFILE: Must be proficient in PHP, MySQL, CSS, HTML, Javascript, AJAX, XML Must know PHP ..."
 }
 {
     "keyword": "java", 
@@ -269,11 +839,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "This is your invitation to join an organization offering greater opportunity, great challenge and great satisfaction. An organization dedicated to teamwork and collaboration. An organization working in the forefront of technology, helping 94 of the Fort ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Senior PHP Programmer", 
+    "company": "Crowd Metric Solutions, Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... come and join us! We are looking for a Senior PHP Programmer who strives to provide elegant, efficent solutions, ... : Must be Proficient in PHP, MySQL Working Knowledge of CSS, HTML, Javascript, AJAX, ..."
+}
+{
     "keyword": "java", 
     "job_title": "Jr. Software Developer", 
     "company": "Talleco", 
     "location": "7th Floor Cebu IT Tower, Bohol Corner Mindanao Avenue, Cebu Business Park, Cebu City, Cebu", 
     "short_description": "Talleco , a new BPO located in Cebu IT Tower, is seeking for Database Administrators, Software Developers, Sr. .NET Developer, Business Intelligence Engineer, Web Developers and Sr. Systems Administrator. We look for ambition, talent, commitment to h ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "ESL Teachers", 
+    "company": "LCI Solutions Cebu Inc.", 
+    "location": "4th floor Meritz Building, AC Cortez, Mandaue City, Cebu", 
+    "short_description": "... COMPENSATION/BENEFITS: (TOTAL PACKAGE OF ABOVE PHP 10,000) - Basic pay - Meal allowance - Load allowance - ..."
 }
 {
     "keyword": "java", 
@@ -283,11 +867,25 @@ Starting new HTTP connection (1): 23.27.197.205
     "short_description": "Taking You Forward, Inc. , is a Business Process Outsourcing (Call Center) in Mandaue City, Cebu, Philippines. \u00a0 Every year TYF grows rapidly, enabling the company to continuously provide \u201c BETTER and ENDLESS OPPORTUNI ..."
 }
 {
+    "keyword": "php", 
+    "job_title": "Senior Web Developer (HTML, XHTML, CSS, PHP, ASP, JSP, Javascript)", 
+    "company": "Orient Express Recruitment Services Inc", 
+    "location": "Osme\u00f1ia Blvd., Cebu City, Cebu", 
+    "short_description": "... for a SENIOR WEB DEVELOPER (HTML, XHTML, CSS, PHP, ASP, JSP, Javascript) The Senior Web Developer will be ... development - web hosting - HTML, XHTML, CSS, PHP, ASP, JSP, Javascript, - SQL, MySQL - WordPress CMS - Photoshop or ..."
+}
+{
     "keyword": "java", 
     "job_title": "Flash / Action Script Developers (Code: Flash / Actionscript Applicant)", 
     "company": "SSI Phils. Inc.", 
     "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
     "short_description": "SSI is the premier global provider of sampling, data collection and data analytic solutions for survey research, reaching respondents in 86 countries via Internet, telephone, mobile/wireless and mixed-access offerings. SSI staff operates from 25 off ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Jr. Software Developer", 
+    "company": "Talleco", 
+    "location": "7th Floor Cebu IT Tower, Bohol Corner Mindanao Avenue, Cebu Business Park, Cebu City, Cebu", 
+    "short_description": "... programming methodologies and programming languages like PHP, ASP, C##, and JavaScript. - Ability to identify and assess relevant ..."
 }
 {
     "keyword": "java", 
@@ -324,7 +922,6 @@ Starting new HTTP connection (1): 23.27.197.205
     "location": "Cebu City, Cebu", 
     "short_description": "... of combined development experience in iOS, Android, PHP, Java, .NET and standardized web technologies. \u00a0 What do we ..."
 }
-Starting new HTTP connection (1): 23.27.197.205
 {
     "keyword": "java", 
     "job_title": "PHP Developer", 
@@ -439,129 +1036,372 @@ Starting new HTTP connection (1): 23.27.197.205
 }
 {
     "keyword": "java", 
-    "job_title": "Marketing Communications Specialist \u0096 Designer", 
-    "company": "Author Solutions Philippines Inc.", 
-    "location": "6th Flr, TGU Tower, IT Park, Lahug, Cebu City, Cebu", 
-    "short_description": "The leading indie publishing company in the world At Author Solutions , we have helped more than 160,000 authors self-publish, promote, and bring to market more than 200,000 new titles and reach their publishing goals. Through our leading self-publis ..."
-}
-{
-    "keyword": "java", 
     "job_title": "Software Engineer", 
     "company": "CyberTech Corporation Research & Development Center \u0096 Cebu", 
     "location": "Lahug, Cebu City, Cebu", 
     "short_description": "... related courses: BSCS & BSIT Knowledgeable in Java, C#, C++, PHP, Python, Flex or Action Script and Adobe ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Senior Programmer", 
-    "company": "Dedon Manufacturing, Inc.", 
-    "location": "Riverside, Canduman, Mandaue City, Cebu", 
-    "short_description": "DEDON \u00a0is a German luxury brand for outdoor furniture, with its headquarters in L\u00fcneburg, Germany, and manufacturing facility in Cebu, Philippines. Founded by Bobby Dekeyser, who created DEDON after retirement from professional football, DE ..."
+    "keyword": "php", 
+    "job_title": "Senior PHP Developer", 
+    "company": "Taking You Forward, Inc.", 
+    "location": "SLL Building, P. Remedio Street, AS Fortuna, Mandaue City, Cebu", 
+    "short_description": "... both DAY & NIGHT shift employees. SENIOR PHP DEVELOPER \u2022 A Senior PHP developer works with systems analysts to determine business requirements, ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Full Stack C# .NET Web Developer", 
-    "company": "Chromedia", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "Chromedia \u2122 is a website development and mobile application startup with members collaborating from around the globe. We are a US-registered corporation with offices in Colorado, USA and a Philippine SEC approved subsidiary in Cebu. ..."
-}
-Starting new HTTP connection (1): 23.27.197.205
-{
-    "keyword": "java", 
-    "job_title": "Content Process Engineer", 
-    "company": "Innodata Knowledge Services, Inc", 
-    "location": "HVG IT Park, Subangdaku, Mandaue City, Cebu", 
-    "short_description": "... Visual Basic 6.0, ASP.net, PHP and\u00a0Java. \u2022Should\u00a0have the skills to test applications and provide ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "Agile PHP Web Application Developer I, II, III", 
-    "company": "Chromedia", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "... web/enterprise applications using PHP, SQL, MySQL and/or Java, Python, RoR, C++ Experience with AJAX, Javascript and ... Familiar with/interested in: Ajax, Apache, Java, Javascript, jQuery, Linux, \u00a0Python, Ruby on Rails, Major PHP ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "Associate Software Engineer", 
-    "company": "Sykes Asia Inc.", 
-    "location": "4th Floor Synergis I.T. Center F. Cabahug St. , Panagdait Mabolo, Cebu City, Cebu", 
-    "short_description": "... or Dreamweaver Basic Knowledge of C based languages (Java, C++, Visual C++) Basic Knowledge of T-SQL Must have strong IT ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "Associate Sofware Engineer", 
-    "company": "Sykes Asia Inc.", 
-    "location": "4th Floor Synergis I.T. Center F. Cabahug St. , Panagdait Mabolo, Cebu City, Cebu", 
-    "short_description": "... or Dreamweaver Basic Knowledge of C based languages (Java, C++, Visual C++) Basic Knowledge of T-SQL Must have strong IT ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "Web / Software Developers (Code: WSD-Applicant)", 
+    "keyword": "php", 
+    "job_title": "Flash / Action Script Developers (Code: Flash / Actionscript Applicant)", 
     "company": "SSI Phils. Inc.", 
     "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
-    "short_description": "SSI is the premier global provider of sampling, data collection and data analytic solutions for survey research, reaching respondents in 86 countries via Internet, telephone, mobile/wireless and mixed-access offerings. SSI staff operates from 25 off ..."
+    "short_description": "... - Any experience with Adobe Flex framework and PHP is an advantage - Good English verbal and written communication skills ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Web Developers (Salary up to 40k \u0096 80k + Benefits, Daytime Job)", 
-    "company": "NL Business Solutions", 
+    "keyword": "php", 
+    "job_title": "PHP Programmers (Code: PHP Applicant)", 
+    "company": "SSI Phils. Inc.", 
+    "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
+    "short_description": "... at www.surveysampling.com . NOW HIRING: PHP PROGRAMMERS (CODE: PHP APPLICANT) Qualifications: -\u00a0 Graduate of any ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Survey Quality Assurance Testers (CODE: QA APPLICANT)", 
+    "company": "SSI Phils. Inc.", 
+    "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
+    "short_description": "... graveyard, weekends and holidays - Knowledge in PHP or MySQL is an advantage but not required - Software testing experience ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Japanese Fluent Programmers", 
+    "company": "SSI Phils. Inc.", 
+    "location": "PIPC Bldg MEZ II, Basak, Lapu Lapu City, Cebu", 
+    "short_description": "... (Web Integrated Research Engine) proprietary software. (PHP) - Project Management, Project Consulting and Project Upkeep - Custom ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Sales Executive - Earn PHP22K Monthly, Plus Incentives!", 
+    "company": "Taking You Forward, Inc.", 
+    "location": "SLL Building, P. Remedio Street, AS Fortuna, Mandaue City, Cebu", 
+    "short_description": "WHO ARE WE LOOKING FOR? \u00a0 Are\u00a0you\u00a0an effective and experienced\u00a0 Sales Executive or Account Executive? \u00a0 Join\u00a0 Taking \u00a0 You \u00a0 Forward \u2019s new Sales ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Outbound Sales Representative - Earn PHP15K Monthly, Plus Incentives!", 
+    "company": "Taking You Forward, Inc.", 
+    "location": "SLL Building, P. Remedio Street, AS Fortuna, Mandaue City, Cebu", 
+    "short_description": "Taking You Forward, Inc. , is a Business Process Outsourcing (Call Center) in Mandaue City, Cebu, Philippines. \u00a0 Every year TYF grows rapidly, enabling the company to continuously provide \u201c BETTER and ENDLESS OPPOR ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Senior Web Developer(s)", 
+    "company": "Smart Drop", 
     "location": "Cebu City, Cebu", 
-    "short_description": "Our client, a well established Swiss based Software Development company engaged in aviation projects as well as other IT Development Projects in Switzerland is looking urgently to hire WEB DEVELOPERS with excellent Javascript, Python, JQuery, Post ..."
+    "short_description": "... A year (or more) experience with PHP & MySQL,\u00a0preferably working with an MVC framework such as ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Android Developers (Salary up to 40k \u0096 100k + Benefits, Daytime Job)", 
-    "company": "NL Business Solutions", 
+    "keyword": "php", 
+    "job_title": "Your Career on a High Stride! Alorica now gives assistance fund to applicants outside Cebu City!", 
+    "company": "Alorica Philippines, Inc.", 
+    "location": "5th floor Skyrise Building 1 Asiatown IT Park, Apas Lahug, Cebu City, Cebu", 
+    "short_description": "... Half of the assistance fund amounting to Php 4,000 would be given on the 15th\u00a0day after the hiring date and to complete additional Php 4,000 would be given on the 30th\u00a0day subsequently.\u00a0 ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "HR Associate", 
+    "company": "Simon Group of Companies", 
+    "location": "78 Plaridel Street, Cebu City, Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES The Simon Group of Companies is a family-owned integrated marketing enterprise that draws upon the global market to provide the goods and services needed by its customers. Our business operation covers the ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Auditor", 
+    "company": "Simon Group of Companies", 
+    "location": "For Permanent Relocation: Manila, Iloilo, Bacolod, Laguna and Cebu, Cebu City, Cebu", 
+    "short_description": "... 150,000.00 per illness . FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty Length of Service Incentive, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Cashier / Accounting", 
+    "company": "Simon Group of Companies", 
+    "location": "For Permanent Relocation: Manila, Iloilo, Bacolod, Laguna and Cebu, Cebu City, Cebu", 
+    "short_description": "... 150,000.00 per illness . FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty Length of Service Incentive, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Special Project In-Charge", 
+    "company": "Simon Group of Companies", 
+    "location": "for Permanent Relocation - Manila, Outside Cebu", 
+    "short_description": "Simon Group of Companies The Simon Group of Companies is a family-owned integrated marketing enterprise that draws upon the global market to provide the goods and services needed by its customers. Our business operation covers the entire Phi ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Collectors / B.I.", 
+    "company": "Simon Group of Companies", 
+    "location": "for Permanent Relocation - Manila, Laguna, Bacolod and Iloilo, Outside Cebu", 
+    "short_description": "... 150,000.00 per illness; FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty; Length of Service ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "HR Recruitment Associate", 
+    "company": "Simon Group of Companies", 
+    "location": "for Permanent Relocation: Manila and Cebu, Cebu City, Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES The Simon Group of Companies is a family-owned integrated marketing enterprise that draws upon the global market to provide the goods and services needed by its customers. Our business operation covers the entire ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Auto CAD Personnel", 
+    "company": "Simon Group of Companies", 
+    "location": "78 Plaridel Street, Cebu City, Cebu", 
+    "short_description": "SIMON GROUP OF COMPANIES The Simon Group of Companies is a family-owned integrated marketing enterprise that draws upon the global market to provide the goods and services needed by its customers. Our business operation covers the entire Phil ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Accounting Staff", 
+    "company": "Simon Group of Companies", 
+    "location": "For Manila, Iloilo, Bacolod, Laguna and Cebu, Cebu City, Cebu", 
+    "short_description": "... 150,000.00 per illness . FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty Length of Service Incentive, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Property Sales Staff", 
+    "company": "Simon Group of Companies", 
+    "location": "Manila, Outside Cebu", 
+    "short_description": "... per illness; \u2022 FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty; \u2022 Length of Service, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Sales and Marketing Coordinator", 
+    "company": "Simon Group of Companies", 
+    "location": "Manila, Outside Cebu", 
+    "short_description": "... per illness; \u2022 FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty; \u2022 Length of Service, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Sales Representative (for Western Mindanao, Butuan and CDO)", 
+    "company": "Simon Group of Companies", 
+    "location": "Western Mindanao, Butuan and CDO, Outside Cebu", 
+    "short_description": "... upon regularization. FREE ACCIDENT Insurance of Php 500,000.00 covering ON and OFF work duty upon hiring. Complete ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Graphic Designer", 
+    "company": "Hive Manufacturing Company, Inc.", 
+    "location": "Luib Compound, P. Basubas St., Tipolo, Mandaue City, Cebu", 
+    "short_description": "... with both Windows and Mac platforms, CSS, HTML, MySQL, PHP, Flash and JavaScript; Must be detailed-oriented and able to meet ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Mobile Application Developer", 
+    "company": "Elementz Interactive", 
     "location": "Cebu City, Cebu", 
-    "short_description": "... urgently to hire ANDROID DEVELOPERS with excellent JAVA & C++ background to be part of their pioneer team in Cebu . ... Must have excellent background in Android Development in Java and C++ Creative, enthusiastic, committed, dependable, and ..."
+    "short_description": "... years of combined development experience in iOS, Android, PHP, Java, .NET and standardized web technologies. \u00a0 What ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Creative Graphic Artist / Web Design", 
-    "company": "SOUND CONNECTION Philippines Inc.", 
-    "location": "JY SQUARE MALL, Cebu City, Cebu", 
-    "short_description": "SOUND CONNECTION Philippines Inc. \u00a0 seeks\u00a0 Creative Graphic Artists & Web Designers \u00a0with a long term commitment for a long lasting career. Qualified candidates must be equipped with the right skills for our\u00a0 Graph ..."
+    "keyword": "php", 
+    "job_title": "Software Tester", 
+    "company": "Elementz Interactive", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... years of combined development experience in iOS, Android, PHP, Java, .NET and standardized web technologies. \u00a0 What ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Android Developer", 
+    "keyword": "php", 
+    "job_title": "PHP Developer", 
+    "company": "Elementz Interactive", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... years of combined development experience in iOS, Android, PHP, Java, .NET and standardized web technologies. \u00a0 What ... for our offices.\u00a0 Join us today! PHP DEVELOPER \u00a0 Summary You ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Software Project Manager", 
+    "company": "Elementz Interactive", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... years of combined development experience in iOS, Android, PHP, Java, .NET and standardized web technologies. \u00a0 What ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web Developer / Programmer", 
+    "company": "Azaza Biz Solutions, Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... 1-2 years of experience Competent in PHP and MySQL Knowledge in other programming language is a plus ... Maintain and improve current system done in PHP Maintain and create websites in HTML, PHP or WordPress Work in ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "SEO Engineer", 
+    "company": "Azaza Biz Solutions, Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... with Basic knowledge in web design/development (Html/CSS, PHP and Graphics editing \u2013 is advantage) Excellent in writing and ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Admin. Technical Staff - Female", 
+    "company": "Litecloud Corporation", 
+    "location": "Unit 2-A 2/F JY Square IT Center 3 #1 Salinas Drive, Lahug, Cebu City, Cebu", 
+    "short_description": "... with experience, at least 6 months, in design patterns and PHP frameworks Has an understanding of C++ programming ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Programmer", 
+    "company": "Litecloud Corporation", 
+    "location": "Unit 2-A 2/F JY Square IT Center 3 #1 Salinas Drive, Lahug, Cebu City, Cebu", 
+    "short_description": "... Preferably with experience in design patterns and PHP frameworks With background as Graphic Artist is a plus ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "IOS / Android Developer", 
+    "company": "Bibo Global Opportunity, Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... Competitive Salary: Basic salary of Php 20,000/month (would vary based on skills and expertise once regularized) A 23-year old team leader position earned Php 28,000/month (2 years experience) A 20-year old member position ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Online English Teacher (Full-time position / Home base)", 
+    "company": "Bibo Global Opportunity, Inc.", 
+    "location": "for National Capital Reg. and Cebu, Cebu City, Cebu", 
+    "short_description": "BIBO GLOBAL OPPORTUNITY, INC (BGO) is a new online English tutorial company. We are looking for experienced and skilled online English teachers with great entrepreneurial mind to start-up our business. ONLINE ENGLISH TEACHER (Full-time ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Front End Developer", 
+    "company": "Sushi Digital", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... programming logic 1 to 2 years\u2019 experience in PHP, MySQL, HTML, CSS, JS, AJAX 1 to 2 years\u2019 experience using ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web System Administrator", 
+    "company": "Sushi Digital", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "Incorporated in 2011, Sushi Digital was created to address the need for a local web design company that produced effective and well-built websites at affordable, world-competitive rates with excellent client service. If you love working i ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Project Manager", 
+    "company": "Sushi Digital", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... level applications 3 years\u2019 experience in PHP, MySQL, HTML, CSS, JS, AJAX 3 years\u2019 experience with Wordpress ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Back End Developer", 
+    "company": "Sushi Digital", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... programming logic 1 to 2 years\u2019 experience in PHP, MySQL, HTML, CSS, JS, AJAX 1 to 2 years\u2019 experience in JSON, ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "PHP / MySQL Developer - LAMP Environment", 
+    "company": "HRsmart Philippines Inc.", 
+    "location": "A.S. Fortuna St., Banilad, Mandaue City, Cebu", 
+    "short_description": "... Inc. Is currently looking for: CAREER: PHP / MYSQL DEVELOPER - LAMP ENVIRONMENT Division: HRSmart Corporate ... using industry standard technologies (specifically HTML, PHP, JavaScript, and MySQL). - Provide input on web platform design and ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Client Service Representative (CSR-PH2)", 
+    "company": "HRsmart Philippines Inc.", 
+    "location": "A.S. Fortuna St., Banilad, Mandaue City, Cebu", 
+    "short_description": "... Experience with MS Project Experience with PHP, MySQL, CSS, HTML Two (2) or more years experience in an HR role ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Bookkeepers", 
+    "company": "Cebu People's Multi-Purpose Cooperative", 
+    "location": "#50 Tomas Abella st., San Nicolas Proper, Cebu City, Cebu", 
+    "short_description": "... with a total initial share capital of One Thousand Pesos (Php 1,000.00). Founded in December 21, 1972. Currently Cebu People's ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Tellers", 
+    "company": "Cebu People's Multi-Purpose Cooperative", 
+    "location": "#50 Tomas Abella st., San Nicolas Proper, Cebu City, Cebu", 
+    "short_description": "... with a total initial share capital of One Thousand Pesos (Php 1,000.00). Founded in December 21, 1972. Currently Cebu People's ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Audit Staff", 
+    "company": "Cebu People's Multi-Purpose Cooperative", 
+    "location": "#50 Tomas Abella st., San Nicolas Proper, Cebu City, Cebu", 
+    "short_description": "... with a total initial share capital of One Thousand Pesos (Php 1,000.00). Founded in December 21, 1972. Currently Cebu People's ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Sr. PHP Developer", 
+    "company": "Ebusiness BPO, Inc.", 
+    "location": "15th Floor, Cebu IT Tower 1 Corner Mindanao Street and Archbishop Reyes Avenu..., Cebu City, Cebu", 
+    "short_description": "... We are currently hiring for: \u00a0 SR. PHP DEVELOPER \u00a0 Job Responsibilities ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "PHP Developer (Urgent)", 
     "company": "Exxpert Communications, Inc.", 
+    "location": "Mabolo / IT Park , Cebu City, Cebu", 
+    "short_description": "... \u00a0 Is currently in need of: \u00a0 PHP DEVELOPER (URGENT) \u00a0 Your magic skills should include... ... experience. Experience with HTML5, JavaScript, CSS, PHP and development using responsive design. Experience with Test-Driven ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Sales Representative (30k/month) ", 
+    "company": "Exxpert Communications, Inc.", 
+    "location": "Mabolo / IT Park , Cebu City, Cebu", 
+    "short_description": "... promotion and continuous training Up to\u00a0 PhP\u00a030,000/monthly \u00a0for qualified candidate. \u00a0 ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "LMS Administrator / Learning Technology Coordinator", 
+    "company": "Qualfon Philippines Inc.", 
+    "location": "Skyrise 3 Qualfon Building, Asiatown, IT Park Lahug, Cebu City, Cebu", 
+    "short_description": "... and/or maintenance Knowledge in Moodle LMS, MySQL, PHP, Joomla, HTML, Java, Audio, video and multimedia Ability to quickly ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Windows Mobile Developer", 
+    "company": "RipeConcepts Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... Continuous Integration, Profile, Analyze experience PHP, MySQL, iOS experience a plus HTML5, CSS, Javascript, jQuery ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Instructor", 
+    "company": "Cebu Technological University - Tuburan Campus", 
+    "location": "Tuburan, Cebu", 
+    "short_description": "... Compensations: Starting Basic monthly salary: Php 19,940 Monthly allowance: 2,000 Plus: clothing, mid-year and ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Web Developer / Programmer", 
+    "company": "Muramoto Audio Visual Philippines Inc. (MAPLE)", 
+    "location": "MEZ 1, Lapu Lapu City, Cebu", 
+    "short_description": "... Has strong background and knowledge about ZEND, PHP, Javascript,\u00a0 HTML, CSS, PostgreSQL, MySQL and MSSQL Possesses ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Online English Teacher", 
+    "company": "IPOBANK, Inc.", 
+    "location": "Cebu City, Cebu", 
+    "short_description": "... school Service Fee 60 Php per 25 minute lesson Incentive: Php 500 for 50 lessons conducted or more per month. Additional Php 250 for ..."
+}
+{
+    "keyword": "php", 
+    "job_title": "Customer Service Representative", 
+    "company": "Contact Solutions Research and Business Process Outsourcing.", 
     "location": "Mandaue City, Cebu", 
-    "short_description": "... subversiion, mercurial and GIT Strong knowledge of JAVA Good visual design sense and creative drive\u00a0 Must be a ..."
+    "short_description": "CONTACT SOLUTIONS RESEARCH AND BUSINESS PROCESS OUTSOURCING \u00a0 Is currently looking for: \u00a0 CUSTOMER SERVICE REPRESENTATIVE \u00a0 (INBOUND AND OUTBOUND CONTACT REPRESENTATIVES FOR CEBU) ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Web Designer", 
-    "company": "Orient Express Recruitment Services Inc", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
+    "keyword": "php", 
+    "job_title": "Marketing Information Support Specialist", 
+    "company": "Author Solutions Philippines Inc.", 
+    "location": "6th Flr, TGU Tower, IT Park, Lahug, Cebu City, Cebu", 
+    "short_description": "... CSS, and other web programming languages is a plus (RoR, PHP, etc) \u00a0 For more information about ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Software Development Engineer", 
-    "company": "Orient Express Recruitment Services Inc", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "... \u00a0\u00a0\u00a0\u00a0- LANGUAGE: C, C++, C#, Basic Java, Javascript, SQL, XML, HTML, CSS \u00a0\u00a0\u00a0\u00a0- LIBRARY/ FRAMEWORK: Windows DDK, Windows SDK, Hibernate, JSF (Java Server Faces), JSP, J2EE, Spring, .NET, Struts, dojo, Eclipse Plugin ..."
+    "keyword": "php", 
+    "job_title": "Outbound Sales Specialist (DAYSHIFT) - Earn PHP22K Monthly, Plus Incentives!", 
+    "company": "Taking You Forward, Inc.", 
+    "location": "SLL Building, P. Remedio Street, AS Fortuna, Mandaue City, Cebu", 
+    "short_description": "Taking You Forward, Inc. , is a Business Process Outsourcing (Call Center) in Mandaue City, Cebu, Philippines. \u00a0 Every year TYF grows rapidly, enabling the company to continuously provide \u201c BETTER and ENDLESS OPPORTUNITIES ..."
 }
 {
-    "keyword": "java", 
-    "job_title": "Senior Web Developers (10)", 
-    "company": "Orient Express Recruitment Services Inc", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
+    "keyword": "php", 
+    "job_title": "Software Engineer", 
+    "company": "CyberTech Corporation Research & Development Center \u0096 Cebu", 
+    "location": "Lahug, Cebu City, Cebu", 
+    "short_description": "... BSCS & BSIT Knowledgeable in Java, C#, C++, PHP, Python, Flex or Action Script and Adobe Illustrator/Photoshop ..."
 }
-{
-    "keyword": "java", 
-    "job_title": "PHP Developer (10)", 
-    "company": "Orient Express Recruitment Services Inc", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "Orient Express Recruitment Services Inc Orient Express Recruitment and Manpower Services, Inc. is one of the leading recruitment agencies in Cebu, whose goal is to provide clients with the very best quality, value and service in human resourc ..."
-}
-{
-    "keyword": "java", 
-    "job_title": "Java Developer", 
-    "company": "Orient Express Recruitment Services Inc", 
-    "location": "Cebu City, Cebu", 
-    "short_description": "... We are urgent hiring for a JAVA DEVELOPER Responsibilities This is a great opportunity for ... on exciting projects. \u2022 Development with Java Enterprise technologies \u2022 Development using Spring, OSGI or ..."
-}
-Starting new HTTP connection (1): 23.27.197.205

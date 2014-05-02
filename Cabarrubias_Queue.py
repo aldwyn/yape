@@ -1,22 +1,26 @@
-class Queue:
+class Queue(list):
 
 	def __init__(self):
-		self.queue = []
+		list.__init__(self)
 		self.front = None
 
 
-	def __str__(self):
-		return '['+', '.join(self.queue)+']'
-
 	def enqueue(self, data):
-		self.queue.append(data)
-		self.front = self.queue[0]
+		self.append(data)
+		self.front = self[0]
 
 
 	def dequeue(self):
-		front = self.front
-		self.queue.remove(front)
-		return front
+		to_return = self.front
+		try:
+			self.remove(self.front)
+			try:
+				self.front = self[0]
+			except IndexError:
+				self.front = None
+			return to_return
+		except IndexError:
+			return 'Queue is empty.'
 
 
 if __name__ == '__main__':
@@ -26,7 +30,9 @@ if __name__ == '__main__':
 	q.enqueue('b')
 
 	print q
-
-	q.dequeue()
+	print q.dequeue()
 
 	print q
+	print q.dequeue()
+
+	print q.front
