@@ -8,35 +8,45 @@ import time
 
 class Barber(Thread):
 
-	def __init__(self, name='Tigtupi', expected=10):
+	def __init__(self, expected_last, name='Tigtupi'):
 		Thread.__init__(self)
 		self.sema = Semaphore()
 		self.name = name
+		self.expected_last = expected_last
 		self.queue = None
-		self.expected = expected
+		self.condition = True
 
-	def set_queue(self, lounge):
-		self.queue = lounge.queue
 
-	def serve(self, customer):
-		log_info('%s is serving %s for %d seconds... ######################################' % (self.name, customer.name, customer.hairdo_rate))
+	def __beware(self):
+		try:
+			while self.queue:
+				front = self.queue.dequeue()
+				with self.sema:
+					self.__serve(front)
+				if front == self.expected_last:
+					self.condition = False
+			else:
+				log_info('%s is sleeping' % self.name)
+		except ValueError:
+			pass
+
+
+	def __serve(self, customer):
+		log_info('%s is serving %s for %d seconds...' % (self.name, customer.name, customer.hairdo_rate))
 		time.sleep(customer.hairdo_rate)
 		log_info('%s is finished serving %s' % (self.name, customer.name))
 
-	def run(self):
-		while self.expected:
-			while self.queue:
-				try:
-					front = self.queue.dequeue()
-					with self.sema:
-						self.serve(front)
-					self.expected -= 1
-				except ValueError:
-					pass
-			else:
-				log_info('%s is zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz' % self.name)
 
-		print self.queue
+	def set_queue(self, queue):
+		self.queue = queue
+
+
+	def run(self):
+		while self.condition:
+			while self.condition:
+				self.__beware()
+			else:
+				log_info('%s\'s Barbershop is now closing' % self.name)
 
 
 
@@ -50,29 +60,34 @@ class Customer(Thread):
 		self.sema = None
 		self.queue = None
 
-	def set_sema(self, sema):
-		self.sema = sema
+
+	def set_barber(self, barber):
+		self.barber = barber
+
 
 	def set_queue(self, queue):
 		self.queue = queue
+
 
 	def __leave(self):
 		log_info('%s is leaving' % self.name)
 		self.queue.remove(self)
 
+
 	def __wait(self):
-		allowed = self.sema.acquire(False)
-		self.sema.release()
+		allowed = self.barber.sema.acquire(False)
+		self.barber.sema.release()
 		if self in self.queue:
 			log_info('%s is waiting for %d seconds...' % (self.name, self.idle_time))
 			time.sleep(self.idle_time)
 			if self in self.queue:
-				log_info(self.name + 'time up! ----------------------------------------')
+				if self == self.barber.expected_last:
+					self.barber.condition = False
+				log_info('%s is already annoyed and is leaving' % self.name)
 				self.__leave()
 			
 
 	def run(self):
-		log_info('%s enters' % self.name)
 		self.__wait()
 
 
@@ -86,21 +101,24 @@ class Lounge(Thread):
 		self.lounge_size = lounge_size
 		self.customers = customers
 
+
 	def __accomodate(self, min=0, max=3):
-		time.sleep(random.randint(min, max))
-		pick = random.randint(0, len(self.customers))
-		while pick >= len(self.customers):
-			pick = random.randint(0, len(self.customers))
-		pick = self.customers[pick]
-		curr_customer = Customer(pick)
-		self.customers.remove(pick)
+		waiting_time = random.randint(min, max)
+		time.sleep(waiting_time)
+
+		curr_customer = self.customers.dequeue()
 		self.queue.enqueue(curr_customer)
-		curr_customer.set_sema(self.barber.sema)
+		curr_customer.set_barber(self.barber)
 		curr_customer.set_queue(self.queue)
+
+		log_info('%s enters' % curr_customer.name)
 		curr_customer.start()
 
+
 	def run(self):
+		log_info('%s\'s Barbershop now opens' % self.barber.name)
 		counter = self.lounge_size
+
 		while len(self.queue) == 0:
 			while counter > 0 and self.customers:
 				self.__accomodate()
@@ -109,21 +127,26 @@ class Lounge(Thread):
 			while self.customers:
 				if len(self.queue) < self.lounge_size:
 					self.__accomodate()
-			else:
-				log_info('Barbershop to-be-service limit reached')
+
+		for customer in self.queue:
+			customer.join()
 
 
-class SleepingBarberProblem:
+class Barbershop:
 
-	def __init__(self, lounge_size):
+	def __init__(self, lounge_size, customer_size):
 		logging.basicConfig(filename='data.log', level=logging.INFO, format='%(message)s')
-		self.lounge_size = lounge_size
-		self.barber = Barber()
+		expected_last = None
 
-		customers = [chr(i) for i in xrange(65, 75)]
+		customers = Queue()
 
+		for ascii in xrange(65, 65+customer_size):
+			expected_last = Customer(chr(ascii))
+			customers.enqueue(expected_last)
+
+		self.barber = Barber(expected_last)
 		self.lounge = Lounge(lounge_size, customers, self.barber)
-		self.barber.set_queue(self.lounge)
+		self.barber.set_queue(self.lounge.queue)
 
 
 	def run_service(self):
@@ -133,6 +156,16 @@ class SleepingBarberProblem:
 
 
 
+class SleepingBarberProblem:
+
+	def __init__(self, lounge_size=5, customer_size=10):
+		self.barbershop = Barbershop(lounge_size, customer_size)
+
+
+	def test(self):
+		self.barbershop.run_service()
+
+
 
 def log_info(message):
 	logging.info(message)
@@ -140,8 +173,8 @@ def log_info(message):
 
 
 def main():
-	sbp = SleepingBarberProblem(5)
-	sbp.run_service()
+	sbp = SleepingBarberProblem()
+	sbp.test()
 	
 
 
