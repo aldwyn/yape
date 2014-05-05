@@ -5,7 +5,7 @@ YAPE: Yet Another Python Exers
 
 > Status: ONGOING...
 
-- Viginere Cipher
+- [Viginere Cipher] (https://github.com/aldwyn/yape/blob/master/Cabarrubias_Josephus.py "See code")
 - Sleeping Barber Problem (with Semaphore)
 - Josephus Problem (Circular Linked List Implementation)
 - Dining Philosophers Problem (List Implementation; Threaded)
