@@ -8,20 +8,33 @@ import json
 import cProfile
 
 
-logging.basicConfig(filename='scraped.json', level=logging.WARNING, format='%(message)s')
-requests_log = logging.getLogger('requests')
 
 
-class Keyword:
+class Keywords(Queue):
 
-	def __init__(self, name):
-		self.name = name
+	def __init__(self):
+		Queue.__init__(self)
 		self.lock = Lock()
+
+
+class Logger(Thread):
+
+	def __init__(self, data_to_log):
+		Thread.__init__(self)
+		logging.basicConfig(filename='scraped.json', level=logging.WARNING, format='%(message)s')
+		logging.getLogger('requests')
+		self.data_to_log = data_to_log
+
+	def run(self):
+		while self.data_to_log:
+			to_log = self.data_to_log.dequeue()
+			logging.warning(json.dumps(to_log, indent=4))
+		
 
 
 class Worker(Thread):
 
-	def __init__(self, searchType='jobs', searchCategory=''):
+	def __init__(self, data_to_log, searchType='jobs', searchCategory=''):
 		Thread.__init__(self)
 		self.proxies = {
 				'http': 'http://23.27.197.200:24801',
@@ -34,11 +47,13 @@ class Worker(Thread):
 		self.url = 'http://mynimo.com/'
 		self.searchType = searchType
 		self.searchCategory = searchCategory
+		self.data_to_log = data_to_log
 		self.searchCounts = 0
 		self.condition = True
-		self.keyword = None
-		self.queue = None
+		self.keywords = None
 		self.workers = None
+		self.keyword = None
+
 
 
 	def __set_keyword(self, keyword):
@@ -47,7 +62,6 @@ class Worker(Thread):
 
 	def __conclude(self):
 		print '%d searches for %s' % (self.searchCounts, self.keyword)
-		self.workers.remove(self)
 
 
 	def __request(self, page):
@@ -60,7 +74,7 @@ class Worker(Thread):
 		for job in jobs:
 			databit = OrderedDict()
 			databit['keyword'] = self.keyword
-			databit['job_title'] = job.find_all('td')[0].find(attrs='jobTitleLink').string
+			databit['job_title'] = job.find_all('td')[0].find(attrs='jobTitleLink').string.encode('utf-8').strip()
 			databit['company'] = job.find_all('td')[2].string.strip()
 			location = job.find_all('td')[1]
 			
@@ -72,7 +86,9 @@ class Worker(Thread):
 			
 			databit['short_description'] = ' '.join(job.find_next('tr').find(attrs='searchContent').text.encode('utf-8').split())
 
-			requests_log.warning(json.dumps(databit, indent=4))
+			self.data_to_log.enqueue(databit)
+			# print 'EXTRACTED: %s' % databit['job_title']
+			# requests_log.warning(json.dumps(databit, indent=4))
 
 
 	def __search(self):
@@ -92,46 +108,69 @@ class Worker(Thread):
 
 	
 
-	def set_queue(self, queue):
-		self.queue = queue
+	def set_keywords(self, keywords):
+		self.keywords = keywords
 
 
 	def set_workers(self, workers):
 		self.workers = workers
 
+	def set_poison(self, poison):
+		self.poison = poison
+
 
 	def run(self):
 		while self.condition:
-			if not self.queue.front.lock.locked():
-				front = self.queue.dequeue()
+			if not self.keywords.lock.locked() and self.keywords:
+				front = self.keywords.dequeue()
+				if front is not None:
+					with self.keywords.lock:
+						self.__set_keyword(front)
+						print '%s acquired %s' % (self, front)
+					self.__search()
+					self.__conclude()
+				else:
+					# pill the poison
+					self.condition = False
+			else:
+				# pill the poison
 				self.condition = False
-				with front.lock:
-					self.__set_keyword(front.name)
-		
-		self.__search()
-		self.__conclude()
+		else:
+			print '%s has been poisoned' % self
 
 
 
 class MynimoWebScraper:
 	
-	def __init__(self, keywords, searchType='jobs', searchCategory=''):
+	def __init__(self, keywords, worker_size=3, searchType='jobs', searchCategory=''):
 		self.searchType = searchType
 		self.searchCategory = searchCategory
 
-		self.queue = Queue()
+		self.keywords = Keywords()
 		self.workers = []
-		for i in xrange(0, len(keywords)):
-			self.queue.enqueue(Keyword(keywords[i]))
-			self.workers.append(Worker(searchType=searchType, searchCategory=searchCategory))
-			self.workers[i].set_queue(self.queue)
+		self.data_to_log = Queue()
+		self.logger = Logger(self.data_to_log)
+
+		for keyword in keywords:
+			self.keywords.enqueue(keyword)
+
+		# adding poison
+		poison = None
+		self.keywords.enqueue(poison)
+
+		for i in xrange(worker_size):
+			self.workers.append(Worker(self.data_to_log, searchType=searchType, searchCategory=searchCategory))
 			self.workers[i].set_workers(self.workers)
+			self.workers[i].set_keywords(self.keywords)
 
 
 	def run_threads(self):
-
 		for worker in self.workers:
 			worker.start()
+
+		self.logger.start()
+
+
 
 
 
