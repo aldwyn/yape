@@ -100,7 +100,7 @@ class Worker(mp.Process):
 
 	def run(self):
 		while True:
-			front = front = self.keywords.get()
+			front = self.keywords.get()
 			if front:
 				print '%s acquired %s' % (self.name, front)
 				self.__set_keyword(front)
