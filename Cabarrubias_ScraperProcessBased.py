@@ -106,6 +106,7 @@ class Worker(mp.Process):
 				self.__set_keyword(front)
 				self.__search()
 				self.__conclude()
+				self.searchCounts = 0
 			else:
 				print '%s has been poisoned' % self.name
 				self.keywords.put(front)
@@ -152,6 +153,6 @@ class MynimoWebScraper:
 
 if __name__ == '__main__':
 
-	queries = ['python', 'ruby', 'rails',]
+	queries = ['ada']
 	s = MynimoWebScraper(queries)
 	s.run_processes()
