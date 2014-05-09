@@ -1,0 +1,24 @@
+ALDWYN - SLEEPING BARBER
+
+QUEUE:
+- instead of creating your own queue, you opted to modify a list. this is not acceptable. all public methods of the list is
+available on your Queue. the ideal behavior is an object that internally uses a list
+- a series of dequeue() crashes your Queue. please test thoroughly
+- dequeue is using multiple return paths. this practice is considered extremely poor form
+
+BARBER:
+- the Lounge object needs only 1 size parameter lounge size
+- in Customer run(), a semaphore guarantees that a seat is available. is_allowed_to_sit is sufficient and the call to is_enqueueable() is incorrect. 
+- in Lounge, is_enqueueable() is hardly descriptive of a lounge.
+- find a more intuitive way to create the poison pill
+- use a weighed choice mechanism to know if the customer is going to leave or not. your current implementation in the decision making is incorrect
+- Barber __die() is not a natural functionality of a barber in a barber shop
+- in Barber run(), 
+>> "while self.lounge.seats" is not correct. lounge.seats is a Queue. please review your implementation thoroughly
+
+>> 
+if customer is self.lounge.poison_pill:
+  self.__die()
+self.__serve(customer)
+
+so if you get the poison pill, you signal you are no longer alive (via self.__die()) but you still serve the customer. this is illogical.
