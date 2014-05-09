@@ -19,15 +19,15 @@ class Queue:
 
 
 	def dequeue(self):
-		to_return = self.front
 		try:
-			self.queue.remove(self.front)
+			to_return = self.queue.pop(0)
 			try:
 				self.front = self.queue[0]
 			except IndexError:
 				self.front = None
-		except ValueError:
-			to_return = 'Queue is empty.'
+		except IndexError:
+			to_return = None
+			self.front = None
 		return to_return
 
 
@@ -46,9 +46,6 @@ if __name__ == '__main__':
 	q.enqueue('c')
 	q.enqueue('d')
 
-	print q
-
-	print q.dequeue()
 	print q.dequeue()
 	print q.dequeue()
 	print q.dequeue()
@@ -61,4 +58,4 @@ if __name__ == '__main__':
 	# a.remove('c')
 	# print a
 
-	print q
+	print q.front

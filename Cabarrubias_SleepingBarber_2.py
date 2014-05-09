@@ -6,17 +6,26 @@ import random
 import time
 
 
+logging.basicConfig(filename='data.log', level=logging.INFO, format='%(message)s')
+
+
 class Barber(Thread):
 
 	def __init__(self, lounge, name='Tigtupi'):
 		Thread.__init__(self)
 		self.name = name
+		self.poison_pill = None
 		self.lounge = lounge
+		self.is_barbershop_not_close = True
+
+
+	def familiarize_poison_pill(self, poison_pill):
+		self.poison_pill = poison_pill
 		
 
 	def __serve(self, customer):
 		self.lounge.sema.release()
-		log_info('%s is serving %s for %d seconds...' % (self.name, 'hey', customer.hairdo_rate))
+		log_info('%s is serving %s for %d seconds...' % (self.name, customer.name, customer.hairdo_rate))
 		customer.is_being_served = True
 		time.sleep(customer.hairdo_rate)
 		log_info('%s is done serving %s' % (self.name, customer.name))
@@ -26,12 +35,10 @@ class Barber(Thread):
 		while True:
 			customer = self.lounge.seats.dequeue()
 			if customer:
-				log_info(customer.name)
 				self.__serve(customer)
-			else:
-				log_info('%s is now sleeping' % self.name)
-				break
-
+				if customer == self.poison_pill:
+					break
+		log_info('%s sleeps' % self.name)
 
 
 class Customer(Thread):
@@ -75,8 +82,8 @@ class Lounge:
 
 	def __init__(self, lounge_size):
 		self.sema = Semaphore(lounge_size)
-		self.lounge_size = lounge_size
 		self.seats = Queue()
+		self.lounge_size = lounge_size
 
 
 	def is_present(self, item):
@@ -84,44 +91,39 @@ class Lounge:
 
 
 
-
 class Barbershop:
 
-	def __init__(self, lounge_size, customer_size):
-		lounge = Lounge(lounge_size)
-		self.waitlist = []
-
-		for ascii in xrange(65, 65+customer_size):
-			customer = Customer(chr(ascii), lounge)
-			self.waitlist.append(customer)
-
-		self.barber = Barber(lounge)
-
-
-	def run_service(self):
-		for customer in self.waitlist:
-			customer.start()
-		
-		self.barber.start()
-
-		for customer in self.waitlist:
-			customer.join()
-
-		# adding poison pill to the waitlist
-		poison_pill = None
-		self.waitlist.append(poison_pill)
+	def __init__(self, lounge_size):
+		self.lounge = Lounge(lounge_size)
+		self.barber = Barber(self.lounge)
 
 
 
 class SleepingBarberProblem:
 
 	def __init__(self, lounge_size=5, customer_size=20):
-		logging.basicConfig(filename='data.log', level=logging.INFO, format='%(message)s')
-		self.barbershop = Barbershop(lounge_size, customer_size)
+		self.barbershop = Barbershop(lounge_size)
+		self.customers = []
+
+		for ascii in xrange(65, 65+customer_size):
+			# customer = Customer(chr(ascii), self.barbershop.lounge)
+			customer = Customer(ascii-65, self.barbershop.lounge)
+			self.customers.append(customer)
+
+		self.poison_pill = Customer('Poison Ivy', self.barbershop.lounge)
+		self.barbershop.barber.familiarize_poison_pill(self.poison_pill)
 
 
-	def test(self):
-		self.barbershop.run_service()
+	def simulate(self):
+		self.barbershop.barber.start()
+
+		for customer in self.customers:
+			time.sleep(random.randint(0, 5))
+			customer.start()
+
+		time.sleep(10)
+		print '-------------------------------------------------------'
+		self.poison_pill.start()
 
 
 
@@ -130,11 +132,7 @@ def log_info(message):
 	stdout.write(message + '\n')
 
 
-def main():
-	sbp = SleepingBarberProblem()
-	sbp.test()
-	
-
 
 if __name__ == '__main__':
-	main()
+	sbp = SleepingBarberProblem()
+	sbp.simulate()
