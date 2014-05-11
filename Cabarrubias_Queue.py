@@ -3,14 +3,14 @@ class Queue:
 	def __init__(self):
 		self.queue = []
 		self.front = None
-
-
-	def __len__(self):
-		return len(self.queue)
-
+		
 
 	def __repr__(self):
 		return self.queue.__repr__()
+
+
+	def qsize(self):
+		return len(self.queue)
 
 
 	def enqueue(self, data):
