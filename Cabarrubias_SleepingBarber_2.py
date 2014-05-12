@@ -42,30 +42,29 @@ class Barber(Thread):
 
 class Customer(Thread):
 
-	def __init__(self, name, lounge, idle_time=None):
+	def __init__(self, name, lounge, is_poison_pill=False):
 		Thread.__init__(self)
 		self.name = name
 		self.hairdo_rate = random.randint(1, 5)
 		self.is_being_served = False
-		self.__idle_time = idle_time or random.randint(10, 15)
+		self.__is_poison_pill = is_poison_pill
+		self.__patience_rate = random.random() * 100
+		self.__idle_time = random.randint(1, 5)
 		self.__is_waiting_outside = True
 		self.__is_allowed_to_sit = False
 		self.__lounge = lounge
 
 
 	def __wait(self):
-		if self in self.__lounge.seats.queue and not self.is_being_served:
-			log_info('%s is waiting for %d seconds...' % (self.name, self.__idle_time))
-			time.sleep(self.__idle_time)
+		log_info('%s is waiting for %d seconds...' % (self.name, self.__idle_time))
+		time.sleep(self.__idle_time)
 			
-		try: # if not still served
-			if self in self.__lounge.seats.queue and not self.is_being_served:
+		if self in self.__lounge.seats.queue and not self.is_being_served and not self.__is_poison_pill:
+			if self.__patience_rate > 60:
 				log_info('%s is annoyed and is leaving' % self.name)
 				self.__lounge.seats.remove(self)
-		except ValueError:
-			pass
+				self.__lounge.sema.release()
 		
-		self.__lounge.sema.release()
 
 
 	def run(self):
@@ -105,7 +104,7 @@ class SleepingBarberProblem:
 			# customer = Customer(ascii-65, self.barbershop.lounge)
 			self.customers.append(customer)
 
-		self.poison_pill = Customer('Poison Ivy', self.barbershop.lounge)
+		self.poison_pill = Customer('Poison Ivy', self.barbershop.lounge, is_poison_pill=True)
 		self.barbershop.barber.familiarize_poison_pill(self.poison_pill)
 
 

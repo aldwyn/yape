@@ -20,7 +20,8 @@ class Queue:
 
 	def dequeue(self):
 		try:
-			to_return = self.queue.pop(0)
+			to_return = self.queue[0]
+			del self.queue[0]
 			try:
 				self.front = self.queue[0]
 			except IndexError:
