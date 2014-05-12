@@ -57,7 +57,8 @@ class Customer(Thread):
 		if self in self.__lounge.seats.queue and not self.is_being_served:
 			log_info('%s is waiting for %d seconds...' % (self.name, self.__idle_time))
 			time.sleep(self.__idle_time)
-		try:
+			
+		try: # if not still served
 			if self in self.__lounge.seats.queue and not self.is_being_served:
 				log_info('%s is annoyed and is leaving' % self.name)
 				self.__lounge.seats.remove(self)
