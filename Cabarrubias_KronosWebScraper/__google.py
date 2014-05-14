@@ -17,13 +17,12 @@ SERVICE_ARGS = [
 ]
 
 # browser = splinter.Browser(user_agent=USER_AGENT)
-# browser = splinter.Browser('chrome', service_args=SERVICE_ARGS, executable_path=EXECUTABLE_PATH)
-browser = splinter.Browser('phantomjs', service_args=SERVICE_ARGS, user_agent=USER_AGENT)
+browser = splinter.Browser('chrome', service_args=SERVICE_ARGS, executable_path=EXECUTABLE_PATH)
+# browser = splinter.Browser('phantomjs', service_args=SERVICE_ARGS, user_agent=USER_AGENT)
 
 with browser:
 	browser.visit(URL)
-	time.sleep(1)
-	browser.fill('q', '"site:https://wfa.kronostm.com" "applicationName"')
+	browser.fill('q', 'site:https://wfa.kronostm.com')
 	browser.find_by_name('btnG').click()
 	
 	while True:
@@ -33,5 +32,7 @@ with browser:
 
 		try:
 			browser.find_by_css('#pnnext').click()
+			time.sleep(5)
 		except:
 			break
+

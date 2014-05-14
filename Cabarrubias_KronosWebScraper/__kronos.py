@@ -12,8 +12,8 @@ SERVICE_ARGS = [
     '--proxy-type=http',
 ]
 
-# browser = splinter.Browser('chrome', service_args=SERVICE_ARGS, executable_path='C:\Python27\Lib\site-packages\chromedriver_win32\chromedriver.exe')
-browser = splinter.Browser('phantomjs', service_args=SERVICE_ARGS, user_agent="Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130401 Firefox/21.0")
+browser = splinter.Browser('chrome', service_args=SERVICE_ARGS, executable_path='C:\Python27\Lib\site-packages\chromedriver_win32\chromedriver.exe')
+# browser = splinter.Browser('phantomjs', service_args=SERVICE_ARGS, user_agent="Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130401 Firefox/21.0")
 
 
 with browser:
@@ -29,5 +29,6 @@ with browser:
 		del cities[0]
 
 		for city in cities:
+			time.sleep(.5)
 			browser.select('search.cityList.value', city.value)
 			print state.value, city.value
